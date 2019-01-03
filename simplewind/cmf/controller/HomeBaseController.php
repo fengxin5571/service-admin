@@ -13,7 +13,8 @@ namespace cmf\controller;
 use think\Db;
 use app\admin\model\ThemeModel;
 use think\View;
-
+use app\admin\model\NavMenuModel;
+use tree\Tree;
 class HomeBaseController extends BaseController
 {
 
@@ -23,6 +24,11 @@ class HomeBaseController extends BaseController
         hook('home_init');
         parent::initialize();
         $siteInfo = cmf_get_site_info();
+        $newCategories=NavMenuModel::where('nav_id',1)->select()->toArray();
+        $tree       = new Tree();
+        $tree->init($newCategories);
+        $treeStr = $tree->getTreeArray(0);
+        View::share('nav_info', $treeStr);
         View::share('site_info', $siteInfo);
     }
 

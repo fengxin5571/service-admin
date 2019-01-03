@@ -1,0 +1,26 @@
+<!--************头部导航************-->
+<div class="netWork_head">
+    <img src="__TMPL__/public/assets/img/LOGO.png" class="logo"/>
+    <ul class="head_ul">
+        <a href="/">
+            <li class="head_li">
+                首页
+            </li>
+        </a>
+        <foreach name="nav_info" item="top_nav">
+            <li class="head_li head_li{$top_nav.icon}">
+                {$top_nav.name|default=''}
+                <!--********************二级菜单********************-->
+                <div class="twoMenu{$top_nav.icon}">
+                    <ul>
+                        <foreach name="top_nav.children" item="c_nav">
+                            <a href="numberSuite.html">
+                                <li class="twoMenu{$top_nav.icon}_li">{$c_nav.name|default=''}</li>
+                            </a>
+                        </foreach>
+                    </ul>
+                </div>
+            </li>
+        </foreach>
+    </ul>
+</div>

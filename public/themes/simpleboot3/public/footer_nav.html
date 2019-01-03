@@ -1,0 +1,41 @@
+<!--*****************底部***************** -->
+<div class="footer">
+    <ul>
+        <li class="footer_left">
+            <img src="__TMPL__/public/assets/img/logo竖式@2x.png" class="footer_logo"/>
+            <p>
+                <img src="__TMPL__/public/assets/img/底部邮箱@2x.png" class="footer_mess"/>
+                <span class="footer_email">service@7reach.com</span>
+            </p>
+            <p>
+                <img src="__TMPL__/public/assets/img/底部电话@2x.png" class="footer_mess"/>
+                <span class="footer_email">0351-6666666</span>
+            </p>
+            <p>
+                <img src="__TMPL__/public/assets/img/底部@2x.png" class="footer_mess"/>
+                <span class="footer_email">深圳前海深港合作区前湾一路A栋201号</span>
+            </p>
+            <p>
+                <img src="__TMPL__/public/assets/img/底部@2x.png" class="footer_mess"/>
+                <span class="footer_email">太原市小店区太原南站阿里巴巴创新中心4层</span>
+            </p>
+        </li>
+        <li class="footer_line"></li>
+        <li class="footer_middle">
+            <foreach name="nav_info" item="nav">
+                <ul class="middle_ul">
+                    <li class="middle_li">{$nav.name}</li>
+                    <foreach name="nav.children" item="childran_nav">
+                        <li class="middle_liTwo"><a href="{$childran_nav.href}">{$childran_nav.name}</a></li>
+
+                    </foreach>
+                </ul>
+            </foreach>
+        <li class="footer_line"></li>
+        <li class="footer_right">
+            <img src="__TMPL__/public/assets/img/two.png" class="footerRight_img"/>
+            <p class="sao">扫一扫</p>
+            <p class="guanzhu">关注微信公众号</p>
+        </li>
+    </ul>
+</div>

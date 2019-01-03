@@ -10,12 +10,14 @@
 // +----------------------------------------------------------------------
 namespace app\portal\controller;
 
+use app\admin\model\NavMenuModel;
 use cmf\controller\HomeBaseController;
+use tree\Tree;
 
 class IndexController extends HomeBaseController
 {
     public function index()
     {
-        return $this->fetch(':index');
+        return $this->fetch(':netWork');
     }
 }
