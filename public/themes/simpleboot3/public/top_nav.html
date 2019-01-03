@@ -14,8 +14,8 @@
                 <div class="twoMenu{$top_nav.icon}">
                     <ul>
                         <foreach name="top_nav.children" item="c_nav">
-                            <a href="numberSuite.html">
-                                <li class="twoMenu{$top_nav.icon}_li">{$c_nav.name|default=''}</li>
+                            <a href="{$c_nav.href}">
+                                <li class="twoMenuOne_li">{$c_nav.name|default=''}</li>
                             </a>
                         </foreach>
                     </ul>
