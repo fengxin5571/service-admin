@@ -1,0 +1,2777 @@
+.aboutCom {
+	width: 100%;
+	height: 100%;
+	overflow-y: auto;
+}
+.netWork_head {
+	width: 100%;
+	height: 50px;
+}
+.footer {
+	width: 100%;
+	height: 380px;
+	background: #252628;
+}
+.footer_line {
+	width: 1px;
+	height: 188px;
+	background: #c8c8ca;
+	float: left;
+	margin-top: 53px;
+}
+.middle_ul {
+	float: left;
+	width: 16.6%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding-top: 36px;
+}
+.sao {
+	font-size: 15px;
+	color: #fff;
+	padding-top: 28px;
+}
+.guanzhu {
+	font-size: 15px;
+	color: #fff;
+	padding-top: 10px;
+}
+.service {
+	width: 100%;
+	height: 180px;
+	background: #F8F8F8;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.service_one {
+	font-size: 26px;
+	color: #333333;
+	padding-bottom: 8px;
+}
+.service_two {
+	font-size: 20px;
+	color: #999999;
+	padding-bottom: 8px;
+}
+.service_three {
+	font-size: 20px;
+	color: #999999;
+}
+.strategy_liOne:hover {
+	background: #00ADE7;
+}
+.strategy_liOne:hover .liOne_word{
+	color: #fff;
+}
+.strategy_liOne:hover .liOne_characters{
+	color: #EBEBEB;
+}
+.right_li:hover {
+	background: #00ADE7;
+}
+.right_li:hover .right_word{
+	color: #fff;
+}
+.right_li:hover .right_characters{
+	color: #EBEBEB;
+}
+.white {
+	color: #fff!important;
+}
+.black {
+	width: 100%;
+	height: 30%;
+	background: rgba(0,0,0,0.3);
+	position: absolute;
+	bottom: 0;
+}
+.tencent_imgOne {
+    width: 66%;
+}
+
+/*<=1024的设备*/
+@media (max-width: 1024px){
+    body{
+    	font-size: 18px;
+    	position: relative;
+    }
+    .footer_left {
+		width: 28%;
+		height: 380px;
+		float: left;
+	}
+	.footer_logo {
+		width: 35%;
+		display: block;
+		margin-left: 10px;
+		padding-top: 40px;
+	}
+	.footer_mess {
+		width: 6%;
+		padding-left: 10px;
+		padding-top: 8px;
+	}
+	.footer_email {
+		padding-left: 5px;
+		font-size: 12px;
+		color: #fff;
+	}
+	.footer_middle {
+		width: 57%;
+		height: 380px;
+		float: left;
+	}
+	.middle_li {
+		font-size: 16px;
+		color: #fff;
+		font-weight: bold;
+	}
+	.middle_liTwo {
+		font-size: 13px;
+		color: #949494;
+		margin-top: 10px;
+	}
+	.footer_right {
+		width: 14%;
+		height: 380px;
+		float: right;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.footerRight_img {
+		width: 64%;
+		padding-top: 40px;
+	}
+    .headNav {
+		width: 100%;
+		height: 654px;
+		background:url(../img/banner_a.png) no-repeat center center;
+		background-size: 100% 100%;
+	}
+	.middleWord {
+		width: 100%;
+		height: 102px;
+		position: absolute;
+		left: 50%;
+		margin-left: -50%;
+		top: 36%;
+		margin-top: -50px;
+		
+	}
+	.middleWordOne {
+		text-align: center;
+		font-size: 43px;
+		color: #fff;
+	}
+	.middleWordTwo {
+		text-align: center;
+		font-size: 18px;
+		color: #fff;
+		padding-top: 40px;
+		
+	}
+    .logo {
+		display: block;
+		float: left;
+		width: 27%;
+		margin-top: 9px;
+		margin-left: 8px;
+	}
+	.head_ul {
+		display: block;
+		float: right;
+		margin-right: 7px;
+	}
+	.twoMenuOne {
+		width: 80px;
+		height: auto;
+		position: absolute;
+		top: 50px;	
+		right: 374px;
+		display: none;
+		z-index: 1000;
+	}
+	.twoMenuTwo {
+		width: 80px;
+		height: auto;
+		position: absolute;
+		top: 50px;	
+		right: 301px;
+		display: none;
+		z-index: 1000;
+	}
+	.twoMenuThree {
+		width: 80px;
+		height: auto;
+		position: absolute;
+		top: 50px;	
+		right: 226px;
+		display: none;
+		z-index: 1000;
+	}
+	.twoMenuFour {
+		width: 80px;
+		height: auto;
+		position: absolute;
+		top: 50px;	
+		right: 151px;
+		display: none;
+		z-index: 1000;
+	}
+	.twoMenuFive {
+		width: 80px;
+		height: auto;
+		position: absolute;
+		top: 50px;	
+		right: 76px;
+		display: none;
+		z-index: 1000;
+	}
+	.twoMenuSix {
+		width: 80px;
+		height: auto;
+		position: absolute;
+		top: 50px;	
+		right: 4px;
+		display: none;
+		z-index: 1000;
+	}
+	.twoMenuOne_li {
+		width: 100%;
+		text-align: center;
+		height: 40px;
+		line-height: 40px;
+		font-size: 13px;
+		color: #fff;
+	}
+	.twoMenuOne_li:hover {
+		color: #00ADE7;
+	}
+	.twoMenuOne_li a {
+		color: #fff;
+	}
+	.twoMenuOne_li a:hover {
+		color: #00ADE7;
+	}
+	.head_li {
+		float: left;
+		width: 74px;
+		height: 48px;
+		text-align: center;
+		line-height: 48px;
+		font-size: 13px;
+		color:#858489;
+	}
+	.head_li:hover {
+		color: #00ade9;
+		border-bottom: 2px solid #00ade7;
+		cursor: pointer;
+	}
+	.strategy {
+    	width: 100%;
+    	height: 402px;
+    	background: #F8F8F8;
+    }
+    .strategy_left {
+    	width: 36%;
+    	height: 402px;
+    	background: url(../img/fuwu_bg.png)no-repeat;
+    	background-size:100% 100%;
+    	float: left;
+    	position: relative;
+    }
+    .left_bottomColor {
+    	width: 100%;
+    	height: 167px;
+    	background: rgba(0,0,0,0.5);
+    	position: absolute;
+    	bottom: 0;
+    }
+    .left_word {
+    	text-indent: 25px;
+    	font-size: 12px;
+    	color: #fff;
+    	padding-top: 10px;
+    	width: 95%;
+    	margin: 0 auto;
+    	line-height: 30px;
+    	letter-spacing: 1px;
+    }
+    .strategy_middle {
+    	width: 30%;
+    	height: 402px;
+    	float: left;
+    	margin-left: 2%;
+    }
+    .strategy_liOne {
+    	width: 100%;
+    	height: 127px;
+    	margin-bottom: 8px;
+    	background: #fff;
+    }
+    .strategy_middle .strategy_liOne:last-child {
+    	margin-bottom: 0;
+    }
+    .liOne_word {
+    	font-size: 18px;
+    	color: #707070;
+    	padding: 20px 0 20px 10px;
+    }
+    .liOne_characters {
+    	font-size: 15px;
+    	color: #BFBFBF;
+    	padding: 20px 0 20px 10px;
+    }
+    .strategy_right {
+    	width: 30%;
+    	height: 402px;
+    	float: left;
+    	margin-left: 2%;
+    }
+    .right_li {
+    	width: 100%;
+    	height: 196px;
+    	margin-bottom: 10px;
+    	background: #fff;
+    }
+    .strategy_right .right_li:last-child {
+    	margin-bottom: 0;
+    }
+    .right_characters {
+    	width: 64%;
+    	line-height: 28px;
+    	letter-spacing: 1px;
+    	padding: 20px 0 20px 20px;
+    }
+    .right_word {
+    	font-size: 18px;
+    	color: #707070;
+    	padding: 30px 0 20px 20px;
+    }
+    .research {
+    	width: 100%;
+    	height: 480px;
+    }
+    .research_liOne {
+    	width: 50%;
+    	float: left;
+    	height: 240px;
+    	background: #fff;
+    	position: relative;
+    }
+    .liOne_research {
+    	position: absolute;
+    	bottom: 78px;
+    	font-size: 20px;
+    	color: #333333;
+    	left: 25px;
+    }
+    .liOne_line {
+    	width: 169px;
+    	height: 3px;
+    	background: #999999;
+    	position: absolute;
+    	left: 25px;
+    	bottom: 60px;
+    }
+    .liOne_china {
+    	position: absolute;
+    	left: 25px;
+    	bottom: 30px;
+    	font-size: 20px;
+    	color: #999999;
+    }
+    .research_liTwo {
+    	width: 50%;
+    	float: left;
+    	height: 240px;
+    	background:url(../img/chuangxin_bg_a.png) no-repeat;
+    	background-size: 100% 100%;
+    	position: relative;
+    }
+    .research_liThree {
+    	width: 50%;
+    	float: left;
+    	height: 240px;
+    	background:url(../img/chuangxin_bg_b.png) no-repeat;
+    	background-size: 100% 100%;
+    	position: relative;
+    }
+    .research_liFour {
+    	width: 50%;
+    	float: left;
+    	height: 240px;
+    	background: #fff;
+    	position: relative;
+    }
+    .tencent {
+    	width: 100%;
+    	height: 590px;
+    	background: #F8F8F8;
+    }
+    .tencent_li {
+	    width: 20%;
+	    height: 70px;
+	    border: 1px dashed #000;
+	    display: flex;
+	    justify-content: center;
+	    align-items: center;
+	    margin: 0px 15px 60px 27px;
+	    float: left;
+	}
+    
+} /*<=1024的设备*/
+
+
+
+
+
+/*>=1024的设备*/
+@media (min-width: 1024px){
+    body{
+    	font-size: 18px;
+    	position: relative;
+    }
+    .footer_left {
+		width: 28%;
+		height: 380px;
+		float: left;
+	}
+	.footer_logo {
+		width: 35%;
+		display: block;
+		margin-left: 10px;
+		padding-top: 40px;
+	}
+	.footer_mess {
+		width: 6%;
+		padding-left: 10px;
+		padding-top: 8px;
+	}
+	.footer_email {
+		padding-left: 5px;
+		font-size: 12px;
+		color: #fff;
+	}
+	.footer_middle {
+		width: 57%;
+		height: 380px;
+		float: left;
+	}
+	.middle_li {
+		font-size: 16px;
+		color: #fff;
+		font-weight: bold;
+	}
+	.middle_liTwo {
+		font-size: 13px;
+		color: #949494;
+		margin-top: 10px;
+	}
+	.footer_right {
+		width: 14%;
+		height: 380px;
+		float: right;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.footerRight_img {
+		width: 64%;
+		padding-top: 40px;
+	}
+    .headNav {
+		width: 100%;
+		height: 677px;
+		background:url(../img/banner_a.png) no-repeat center center;
+		background-size: 100% 100%;
+	}
+	.middleWord {
+		width: 100%;
+		height: 102px;
+		position: absolute;
+		left: 50%;
+		margin-left: -50%;
+		top: 36%;
+		margin-top: -50px;
+		
+	}
+	.middleWordOne {
+		text-align: center;
+		font-size: 52px;
+		color: #fff;
+	}
+	.middleWordTwo {
+		text-align: center;
+		font-size: 22px;
+		color: #fff;
+		padding-top: 40px;
+		
+	}
+    .logo {
+		display: block;
+		float: left;
+		width: 27%;
+		margin-top: 9px;
+		margin-left: 8px;
+	}
+	.head_ul {
+		display: block;
+		float: right;
+		margin-right: 7px;
+	}
+	.twoMenuOne {
+		width: 80px;
+		height: auto;
+		position: absolute;
+		top: 50px;	
+		right: 375px;
+		display: none;
+		z-index: 1000;
+	}
+	.twoMenuTwo {
+		width: 80px;
+		height: auto;
+		position: absolute;
+		top: 50px;	
+		right: 301px;
+		display: none;
+		z-index: 1000;
+	}
+	.twoMenuThree {
+		width: 80px;
+		height: auto;
+		position: absolute;
+		top: 50px;	
+		right: 226px;
+		display: none;
+		z-index: 1000;
+	}
+	.twoMenuFour {
+		width: 80px;
+		height: auto;
+		position: absolute;
+		top: 50px;	
+		right: 151px;
+		display: none;
+		z-index: 1000;
+	}
+	.twoMenuFive {
+		width: 80px;
+		height: auto;
+		position: absolute;
+		top: 50px;	
+		right: 76px;
+		display: none;
+		z-index: 1000;
+	}
+	.twoMenuSix {
+		width: 80px;
+		height: auto;
+		position: absolute;
+		top: 50px;	
+		right: 2px;
+		display: none;
+		z-index: 1000;
+	}
+	.twoMenuOne_li {
+		width: 100%;
+		text-align: center;
+		height: 40px;
+		line-height: 40px;
+		font-size: 13px;
+		color: #fff;
+	}
+	.twoMenuOne_li:hover {
+		color: #00ADE7;
+	}
+	.twoMenuOne_li a {
+		color: #fff;
+	}
+	.twoMenuOne_li a:hover {
+		color: #00ADE7;
+	}
+	
+	.head_li {
+		float: left;
+		width: 74px;
+		height: 48px;
+		text-align: center;
+		line-height: 48px;
+		font-size: 13px;
+		color:#858489;
+	}
+	.head_li:hover {
+		color: #00ade9;
+		border-bottom: 2px solid #00ade7;
+		cursor: pointer;
+	}
+	.strategy {
+    	width: 100%;
+    	height: 402px;
+    	background: #F8F8F8;
+    }
+    .strategy_left {
+    	width: 36%;
+    	height: 402px;
+    	background: url(../img/fuwu_bg.png)no-repeat;
+    	background-size:100% 100%;
+    	float: left;
+    	position: relative;
+    }
+    .left_bottomColor {
+    	width: 100%;
+    	height: 167px;
+    	background: rgba(0,0,0,0.5);
+    	position: absolute;
+    	bottom: 0;
+    }
+    .left_word {
+    	text-indent: 25px;
+    	font-size: 12px;
+    	color: #fff;
+    	padding-top: 10px;
+    	width: 95%;
+    	margin: 0 auto;
+    	line-height: 30px;
+    	letter-spacing: 1px;
+    }
+    .strategy_middle {
+    	width: 30%;
+    	height: 402px;
+    	float: left;
+    	margin-left: 2%;
+    }
+    .strategy_liOne {
+    	width: 100%;
+    	height: 127px;
+    	margin-bottom: 8px;
+    	background: #fff;
+    }
+    .strategy_middle .strategy_liOne:last-child {
+    	margin-bottom: 0;
+    }
+    .liOne_word {
+    	font-size: 18px;
+    	color: #707070;
+    	padding: 20px 0 20px 10px;
+    }
+    .liOne_characters {
+    	font-size: 15px;
+    	color: #BFBFBF;
+    	padding: 20px 0 20px 10px;
+    }
+    .strategy_right {
+    	width: 30%;
+    	height: 402px;
+    	float: left;
+    	margin-left: 2%;
+    }
+    .right_li {
+    	width: 100%;
+    	height: 196px;
+    	margin-bottom: 10px;
+    	background: #fff;
+    }
+    .strategy_right .right_li:last-child {
+    	margin-bottom: 0;
+    }
+    .right_characters {
+    	width: 64%;
+    	line-height: 28px;
+    	letter-spacing: 1px;
+    	padding: 20px 0 20px 20px;
+    }
+    .right_word {
+    	font-size: 18px;
+    	color: #707070;
+    	padding: 30px 0 20px 20px;
+    }
+    .research {
+    	width: 100%;
+    	height: 480px;
+    }
+    .research_liOne {
+    	width: 50%;
+    	float: left;
+    	height: 240px;
+    	background: #fff;
+    	position: relative;
+    }
+    .liOne_research {
+    	position: absolute;
+    	bottom: 78px;
+    	font-size: 20px;
+    	color: #333333;
+    	left: 25px;
+    }
+    .liOne_line {
+    	width: 169px;
+    	height: 3px;
+    	background: #999999;
+    	position: absolute;
+    	left: 25px;
+    	bottom: 60px;
+    }
+    .liOne_china {
+    	position: absolute;
+    	left: 25px;
+    	bottom: 30px;
+    	font-size: 20px;
+    	color: #999999;
+    }
+    .research_liTwo {
+    	width: 50%;
+    	float: left;
+    	height: 240px;
+    	background:url(../img/chuangxin_bg_a.png) no-repeat;
+    	background-size: 100% 100%;
+    	position: relative;
+    }
+    .research_liThree {
+    	width: 50%;
+    	float: left;
+    	height: 240px;
+    	background:url(../img/chuangxin_bg_b.png) no-repeat;
+    	background-size: 100% 100%;
+    	position: relative;
+    }
+    .research_liFour {
+    	width: 50%;
+    	float: left;
+    	height: 240px;
+    	background: #fff;
+    	position: relative;
+    }
+    .tencent {
+    	width: 100%;
+    	height: 590px;
+    	background: #F8F8F8;
+    }
+    .tencent_li {
+	    width: 20%;
+	    height: 70px;
+	    border: 1px dashed #000;
+	    display: flex;
+	    justify-content: center;
+	    align-items: center;
+	    margin: 0px 15px 60px 27px;
+	    float: left;
+	}
+    
+} /*>=1024的设备*/
+
+
+
+/*>=1100的设备*/
+@media (min-width: 1100px) {
+    body{
+    	font-size: 20px;
+    	position: relative;
+    }
+    .footer_left {
+		width: 28%;
+		height: 380px;
+		float: left;
+	}
+	.footer_logo {
+		width: 35%;
+		display: block;
+		margin-left: 10px;
+		padding-top: 40px;
+	}
+	.footer_mess {
+		width: 6%;
+		padding-left: 10px;
+		padding-top: 8px;
+	}
+	.footer_email {
+		padding-left: 5px;
+		font-size: 13px;
+		color: #fff;
+	}
+	.footer_middle {
+		width: 57%;
+		height: 380px;
+		float: left;
+	}
+	.middle_li {
+		font-size: 17px;
+		color: #fff;
+		font-weight: bold;
+	}
+	.middle_liTwo {
+		font-size: 13px;
+		color: #949494;
+		margin-top: 10px;
+	}
+	.footer_right {
+		width: 14%;
+		height: 380px;
+		float: right;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.footerRight_img {
+		width: 64%;
+		padding-top: 40px;
+	}
+    .headNav {
+		width: 100%;
+		height: 685px;
+		background:url(../img/banner_a.png) no-repeat center center;
+		background-size: 100% 100%;
+	}
+	.middleWord {
+		width: 100%;
+		height: 102px;
+		position: absolute;
+		left: 50%;
+		margin-left: -50%;
+		top: 36%;
+		margin-top: -50px;
+		
+	}
+	.middleWordOne {
+		text-align: center;
+		font-size: 52px;
+		color: #fff;
+	}
+	.middleWordTwo {
+		text-align: center;
+		font-size: 22px;
+		color: #fff;
+		padding-top: 40px;
+		
+	}
+    .logo {
+		display: block;
+		float: left;
+		width: 27%;
+		margin-top: 9px;
+		margin-left: 8px;
+	}
+	.head_ul {
+		display: block;
+		float: right;
+		margin-right: 7px;
+	}
+	.twoMenuOne {
+		width: 80px;
+		height: auto;
+		position: absolute;
+		top: 50px;	
+		right: 373px;
+		display: none;
+		z-index: 1000;
+	}
+	.twoMenuTwo {
+		width: 80px;
+		height: auto;
+		position: absolute;
+		top: 50px;	
+		right: 299px;
+		display: none;
+		z-index: 1000;
+	}
+	.twoMenuThree {
+		width: 80px;
+		height: auto;
+		position: absolute;
+		top: 50px;	
+		right: 227px;
+		display: none;
+		z-index: 1000;
+	}
+	.twoMenuFour {
+		width: 80px;
+		height: auto;
+		position: absolute;
+		top: 50px;	
+		right: 151px;
+		display: none;
+		z-index: 1000;
+	}
+	.twoMenuFive {
+		width: 80px;
+		height: auto;
+		position: absolute;
+		top: 50px;	
+		right: 78px;
+		display: none;
+		z-index: 1000;
+	}
+	.twoMenuSix {
+		width: 80px;
+		height: auto;
+		position: absolute;
+		top: 50px;	
+		right: 4px;
+		display: none;
+		z-index: 1000;
+	}
+	.twoMenuOne_li {
+		width: 100%;
+		text-align: center;
+		height: 40px;
+		line-height: 40px;
+		font-size: 13px;
+		color: #fff;
+	}
+	.twoMenuOne_li:hover {
+		color: #00ADE7;
+	}
+	.twoMenuOne_li a {
+		color: #fff;
+	}
+	.twoMenuOne_li a:hover {
+		color: #00ADE7;
+	}
+	.head_li {
+		float: left;
+		width: 74px;
+		height: 48px;
+		text-align: center;
+		line-height: 48px;
+		font-size: 13px;
+		color:#858489;
+	}
+	.head_li:hover {
+		color: #00ade9;
+		border-bottom: 2px solid #00ade7;
+		cursor: pointer;
+	}
+	.strategy {
+    	width: 100%;
+    	height: 402px;
+    	background: #F8F8F8;
+    }
+    .strategy_left {
+    	width: 36%;
+    	height: 402px;
+    	background: url(../img/fuwu_bg.png)no-repeat;
+    	background-size:100% 100%;
+    	float: left;
+    	position: relative;
+    }
+    .left_bottomColor {
+    	width: 100%;
+    	height: 167px;
+    	background: rgba(0,0,0,0.5);
+    	position: absolute;
+    	bottom: 0;
+    }
+    .left_word {
+    	text-indent: 25px;
+    	font-size: 13px;
+    	color: #fff;
+    	padding-top: 10px;
+    	width: 95%;
+    	margin: 0 auto;
+    	line-height: 30px;
+    	letter-spacing: 1px;
+    }
+    .strategy_middle {
+    	width: 30%;
+    	height: 402px;
+    	float: left;
+    	margin-left: 2%;
+    }
+    .strategy_liOne {
+    	width: 100%;
+    	height: 127px;
+    	margin-bottom: 8px;
+    	background: #fff;
+    }
+    .strategy_middle .strategy_liOne:last-child {
+    	margin-bottom: 0;
+    }
+    .liOne_word {
+    	font-size: 18px;
+    	color: #707070;
+    	padding: 20px 0 20px 10px;
+    }
+    .liOne_characters {
+    	font-size: 16px;
+    	color: #BFBFBF;
+    	padding: 20px 0 20px 10px;
+    }
+    .strategy_right {
+    	width: 30%;
+    	height: 402px;
+    	float: left;
+    	margin-left: 2%;
+    }
+    .right_li {
+    	width: 100%;
+    	height: 196px;
+    	margin-bottom: 10px;
+    	background: #fff;
+    }
+    .strategy_right .right_li:last-child {
+    	margin-bottom: 0;
+    }
+    .right_characters {
+    	width: 64%;
+    	line-height: 28px;
+    	letter-spacing: 1px;
+    	padding: 20px 0 20px 20px;
+    }
+    .right_word {
+    	font-size: 18px;
+    	color: #707070;
+    	padding: 30px 0 20px 20px;
+    }
+    .research {
+    	width: 100%;
+    	height: 500px;
+    }
+    .research_liOne {
+    	width: 50%;
+    	float: left;
+    	height: 250px;
+    	background: #fff;
+    	position: relative;
+    }
+    .liOne_research {
+    	position: absolute;
+    	bottom: 78px;
+    	font-size: 20px;
+    	color: #333333;
+    	left: 25px;
+    }
+    .liOne_line {
+    	width: 169px;
+    	height: 3px;
+    	background: #999999;
+    	position: absolute;
+    	left: 25px;
+    	bottom: 60px;
+    }
+    .liOne_china {
+    	position: absolute;
+    	left: 25px;
+    	bottom: 30px;
+    	font-size: 20px;
+    	color: #999999;
+    }
+    .research_liTwo {
+    	width: 50%;
+    	float: left;
+    	height: 250px;
+    	background:url(../img/chuangxin_bg_a.png) no-repeat;
+    	background-size: 100% 100%;
+    	position: relative;
+    }
+    .research_liThree {
+    	width: 50%;
+    	float: left;
+    	height: 250px;
+    	background:url(../img/chuangxin_bg_b.png) no-repeat;
+    	background-size: 100% 100%;
+    	position: relative;
+    }
+    .research_liFour {
+    	width: 50%;
+    	float: left;
+    	height: 250px;
+    	background: #fff;
+    	position: relative;
+    }
+    .tencent {
+    	width: 100%;
+    	height: 590px;
+    	background: #F8F8F8;
+    }
+    .tencent_li {
+	    width: 20%;
+	    height: 70px;
+	    border: 1px dashed #000;
+	    display: flex;
+	    justify-content: center;
+	    align-items: center;
+	    margin: 0px 24px 60px 27px;
+	    float: left;
+	}
+    
+} /*>=1100的设备*/
+
+
+
+/*>=1280的设备*/
+@media (min-width: 1280px) {
+    body{
+    	font-size: 22px;
+    	position: relative;
+    }
+    .footer_left {
+		width: 27%;
+		height: 380px;
+		float: left;
+	}
+	.footer_logo {
+		width: 42%;
+		display: block;
+		margin-left: 10px;
+		padding-top: 40px;
+	}
+	.footer_mess {
+		width: 6%;
+		padding-left: 10px;
+		padding-top: 8px;
+	}
+	.footer_email {
+		padding-left: 5px;
+		font-size: 15px;
+		color: #fff;
+	}
+	.footer_middle {
+		width: 57%;
+		height: 380px;
+		float: left;
+	}
+	.middle_li {
+		font-size: 20px;
+		color: #fff;
+		font-weight: bold;
+	}
+	.middle_liTwo {
+		font-size: 16px;
+		color: #949494;
+		margin-top: 10px;
+	}
+	.footer_right {
+		width: 15%;
+		height: 380px;
+		float: right;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.footerRight_img {
+		width: 64%;
+		padding-top: 40px;
+	}
+    .headNav {
+		width: 100%;
+		height: 730px;
+		background:url(../img/banner_a.png) no-repeat center center;
+		background-size: 100% 100%;
+	}
+	.middleWord {
+		width: 100%;
+		height: 102px;
+		position: absolute;
+		left: 50%;
+		margin-left: -50%;
+		top: 36%;
+		margin-top: -50px;
+		
+	}
+	.middleWordOne {
+		text-align: center;
+		font-size: 52px;
+		color: #fff;
+	}
+	.middleWordTwo {
+		text-align: center;
+		font-size: 22px;
+		color: #fff;
+		padding-top: 40px;
+		
+	}
+    .logo {
+		display: block;
+		float: left;
+		width: 23%;
+		margin-top: 9px;
+		margin-left: 12px;
+	}
+	.head_ul {
+		display: block;
+		float: right;
+		margin-right: 10px;
+	}
+	.twoMenuOne {
+		width: 80px;
+		height: auto;
+		position: absolute;
+		top: 50px;	
+		right: 379px;
+		display: none;
+		z-index: 1000;
+	}
+	.twoMenuTwo {
+		width: 80px;
+		height: auto;
+		position: absolute;
+		top: 50px;	
+		right: 301px;
+		display: none;
+		z-index: 1000;
+	}
+	.twoMenuThree {
+		width: 80px;
+		height: auto;
+		position: absolute;
+		top: 50px;	
+		right: 229px;
+		display: none;
+		z-index: 1000;
+	}
+	.twoMenuFour {
+		width: 80px;
+		height: auto;
+		position: absolute;
+		top: 50px;	
+		right: 155px;
+		display: none;
+		z-index: 1000;
+	}
+	.twoMenuFive {
+		width: 80px;
+		height: auto;
+		position: absolute;
+		top: 50px;	
+		right: 81px;
+		display: none;
+		z-index: 1000;
+	}
+	.twoMenuSix {
+		width: 80px;
+		height: auto;
+		position: absolute;
+		top: 50px;	
+		right: 6px;
+		display: none;
+		z-index: 1000;
+	}
+	.twoMenuOne_li {
+		width: 100%;
+		text-align: center;
+		height: 40px;
+		line-height: 40px;
+		font-size: 13px;
+		color: #fff;
+	}
+	.twoMenuOne_li:hover {
+		color: #00ADE7;
+	}
+	.twoMenuOne_li a {
+		color: #fff;
+	}
+	.twoMenuOne_li a:hover {
+		color: #00ADE7;
+	}
+	.head_li {
+		float: left;
+		width: 74px;
+		height: 48px;
+		text-align: center;
+		line-height: 48px;
+		font-size: 13px;
+		color:#858489;
+	}
+	.head_li:hover {
+		color: #00ade9;
+		border-bottom: 2px solid #00ade7;
+		cursor: pointer;
+	}
+	.strategy {
+    	width: 100%;
+    	height: 402px;
+    	background: #F8F8F8;
+    }
+    .strategy_left {
+    	width: 36%;
+    	height: 402px;
+    	background: url(../img/fuwu_bg.png)no-repeat;
+    	background-size:100% 100%;
+    	float: left;
+    	position: relative;
+    }
+    .left_bottomColor {
+    	width: 100%;
+    	height: 167px;
+    	background: rgba(0,0,0,0.5);
+    	position: absolute;
+    	bottom: 0;
+    }
+    .left_word {
+    	text-indent: 25px;
+    	font-size: 15px;
+    	color: #fff;
+    	padding-top: 10px;
+    	width: 95%;
+    	margin: 0 auto;
+    	line-height: 30px;
+    	letter-spacing: 1px;
+    }
+    .strategy_middle {
+    	width: 30%;
+    	height: 402px;
+    	float: left;
+    	margin-left: 2%;
+    }
+    .strategy_liOne {
+    	width: 100%;
+    	height: 127px;
+    	margin-bottom: 8px;
+    	background: #fff;
+    }
+    .strategy_middle .strategy_liOne:last-child {
+    	margin-bottom: 0;
+    }
+    .liOne_word {
+    	font-size: 18px;
+    	color: #707070;
+    	padding: 20px 0 20px 10px;
+    }
+    .liOne_characters {
+    	font-size: 16px;
+    	color: #BFBFBF;
+    	padding: 20px 0 20px 10px;
+    }
+    .strategy_right {
+    	width: 30%;
+    	height: 402px;
+    	float: left;
+    	margin-left: 2%;
+    }
+    .right_li {
+    	width: 100%;
+    	height: 196px;
+    	margin-bottom: 10px;
+    	background: #fff;
+    }
+    .strategy_right .right_li:last-child {
+    	margin-bottom: 0;
+    }
+    .right_characters {
+    	width: 64%;
+    	line-height: 30px;
+    	letter-spacing: 2px;
+    	padding: 20px 0 20px 20px;
+    }
+    .right_word {
+    	font-size: 20px;
+    	color: #707070;
+    	padding: 30px 0 20px 20px;
+    }
+    .research {
+    	width: 100%;
+    	height: 580px;
+    }
+    .research_liOne {
+    	width: 50%;
+    	float: left;
+    	height: 290px;
+    	background: #fff;
+    	position: relative;
+    }
+    .liOne_research {
+    	position: absolute;
+    	bottom: 78px;
+    	font-size: 20px;
+    	color: #333333;
+    	left: 25px;
+    }
+    .liOne_line {
+    	width: 169px;
+    	height: 3px;
+    	background: #999999;
+    	position: absolute;
+    	left: 25px;
+    	bottom: 60px;
+    }
+    .liOne_china {
+    	position: absolute;
+    	left: 25px;
+    	bottom: 30px;
+    	font-size: 20px;
+    	color: #999999;
+    }
+    .research_liTwo {
+    	width: 50%;
+    	float: left;
+    	height: 290px;
+    	background:url(../img/chuangxin_bg_a.png) no-repeat;
+    	background-size: 100% 100%;
+    	position: relative;
+    }
+    .research_liThree {
+    	width: 50%;
+    	float: left;
+    	height: 290px;
+    	background:url(../img/chuangxin_bg_b.png) no-repeat;
+    	background-size: 100% 100%;
+    	position: relative;
+    }
+    .research_liFour {
+    	width: 50%;
+    	float: left;
+    	height: 290px;
+    	background: #fff;
+    	position: relative;
+    }
+    .tencent {
+    	width: 100%;
+    	height: 590px;
+    	background: #F8F8F8;
+    }
+    .tencent_li {
+	    width: 20%;
+	    height: 70px;
+	    border: 1px dashed #000;
+	    display: flex;
+	    justify-content: center;
+	    align-items: center;
+	    margin: 0px 28px 60px 33px;
+	    float: left;
+	}
+   
+} /*>=1280的设备*/
+
+
+/*>=1366的设备*/
+@media (min-width: 1366px) {
+
+    body{
+    	font-size: 24px;
+    	position: relative;
+    }
+    .footer_left {
+		width: 26%;
+		height: 380px;
+		float: left;
+	}
+	.footer_logo {
+		width: 42%;
+		display: block;
+		margin-left: 10px;
+		padding-top: 40px;
+	}
+	.footer_mess {
+		width: 6%;
+		padding-left: 10px;
+		padding-top: 8px;
+	}
+	.footer_email {
+		padding-left: 5px;
+		font-size: 15px;
+		color: #fff;
+	}
+	.footer_middle {
+		width: 57%;
+		height: 380px;
+		float: left;
+	}
+	.middle_li {
+		font-size: 20px;
+		color: #fff;
+		font-weight: bold;
+	}
+	.middle_liTwo {
+		font-size: 16px;
+		color: #949494;
+		margin-top: 10px;
+	}
+	.footer_right {
+		width: 16%;
+		height: 380px;
+		float: right;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.footerRight_img {
+		width: 64%;
+		padding-top: 40px;
+	}
+    .headNav {
+		width: 100%;
+		height: 763px;
+		background:url(../img/banner_a.png) no-repeat center center;
+		background-size: 100% 100%;
+	}
+	.middleWord {
+		width: 100%;
+		height: 102px;
+		position: absolute;
+		left: 50%;
+		margin-left: -50%;
+		top: 36%;
+		margin-top: -50px;
+		
+	}
+	.middleWordOne {
+		text-align: center;
+		font-size: 59px;
+		color: #fff;
+	}
+	.middleWordTwo {
+		text-align: center;
+		font-size: 24px;
+		color: #fff;
+		padding-top: 40px;
+		
+	}
+    .logo {
+		display: block;
+		float: left;
+		width: 20%;
+		margin-top: 9px;
+		margin-left: 10px;
+	}
+	.head_ul {
+		display: block;
+		float: right;
+		margin-right: 6px;
+	}
+	.twoMenuOne {
+		width: 80px;
+		height: auto;
+		position: absolute;
+		top: 50px;	
+		right: 375px;
+		display: none;
+		z-index: 1000;
+	}
+	.twoMenuTwo {
+		width: 80px;
+		height: auto;
+		position: absolute;
+		top: 50px;	
+		right: 299px;
+		display: none;
+		z-index: 1000;
+	}
+	.twoMenuThree {
+		width: 80px;
+		height: auto;
+		position: absolute;
+		top: 50px;	
+		right: 228px;
+		display: none;
+		z-index: 1000;
+	}
+	.twoMenuFour {
+		width: 80px;
+		height: auto;
+		position: absolute;
+		top: 50px;	
+		right: 150px;
+		display: none;
+		z-index: 1000;
+	}
+	.twoMenuFive {
+		width: 80px;
+		height: auto;
+		position: absolute;
+		top: 50px;	
+		right: 77px;
+		display: none;
+		z-index: 1000;
+	}
+	.twoMenuSix {
+		width: 80px;
+		height: auto;
+		position: absolute;
+		top: 50px;	
+		right: 2px;
+		display: none;
+		z-index: 1000;
+	}
+	.twoMenuOne_li {
+		width: 100%;
+		text-align: center;
+		height: 40px;
+		line-height: 40px;
+		font-size: 13px;
+		color: #fff;
+	}
+	.twoMenuOne_li:hover {
+		color: #00ADE7;
+	}
+	.twoMenuOne_li a {
+		color: #fff;
+	}
+	.twoMenuOne_li a:hover {
+		color: #00ADE7;
+	}
+	.head_li {
+		float: left;
+		width: 74px;
+		height: 48px;
+		text-align: center;
+		line-height: 48px;
+		font-size: 13px;
+		color:#858489;
+	}
+	.head_li:hover {
+		color: #00ade9;
+		border-bottom: 2px solid #00ade7;
+		cursor: pointer;
+	}
+	.strategy {
+    	width: 100%;
+    	height: 402px;
+    	background: #F8F8F8;
+    }
+    .strategy_left {
+    	width: 36%;
+    	height: 402px;
+    	background: url(../img/fuwu_bg.png)no-repeat;
+    	background-size:100% 100%;
+    	float: left;
+    	position: relative;
+    }
+    .left_bottomColor {
+    	width: 100%;
+    	height: 167px;
+    	background: rgba(0,0,0,0.5);
+    	position: absolute;
+    	bottom: 0;
+    }
+    .left_word {
+    	text-indent: 25px;
+    	font-size: 16px;
+    	color: #fff;
+    	padding-top: 10px;
+    	width: 95%;
+    	margin: 0 auto;
+    	line-height: 32px;
+    	letter-spacing: 2px;
+    }
+    .strategy_middle {
+    	width: 30%;
+    	height: 402px;
+    	float: left;
+    	margin-left: 2%;
+    }
+    .strategy_liOne {
+    	width: 100%;
+    	height: 127px;
+    	margin-bottom: 8px;
+    	background: #fff;
+    }
+    .strategy_middle .strategy_liOne:last-child {
+    	margin-bottom: 0;
+    }
+    .liOne_word {
+    	font-size: 20px;
+    	color: #707070;
+    	padding: 20px 0 20px 10px;
+    }
+    .liOne_characters {
+    	font-size: 18px;
+    	color: #BFBFBF;
+    	padding: 20px 0 20px 10px;
+    }
+    .strategy_right {
+    	width: 30%;
+    	height: 402px;
+    	float: left;
+    	margin-left: 2%;
+    }
+    .right_li {
+    	width: 100%;
+    	height: 196px;
+    	margin-bottom: 10px;
+    	background: #fff;
+    }
+    .strategy_right .right_li:last-child {
+    	margin-bottom: 0;
+    }
+    .right_characters {
+    	width: 60%;
+    	line-height: 30px;
+    	letter-spacing: 2px;
+    	padding: 20px 0 20px 20px;
+    }
+    .right_word {
+    	font-size: 20px;
+    	color: #707070;
+    	padding: 30px 0 20px 20px;
+    }
+    .research {
+    	width: 100%;
+    	height: 580px;
+    }
+    .research_liOne {
+    	width: 50%;
+    	float: left;
+    	height: 290px;
+    	background: #fff;
+    	position: relative;
+    }
+    .liOne_research {
+    	position: absolute;
+    	bottom: 78px;
+    	font-size: 20px;
+    	color: #333333;
+    	left: 25px;
+    }
+    .liOne_line {
+    	width: 169px;
+    	height: 3px;
+    	background: #999999;
+    	position: absolute;
+    	left: 25px;
+    	bottom: 60px;
+    }
+    .liOne_china {
+    	position: absolute;
+    	left: 25px;
+    	bottom: 30px;
+    	font-size: 20px;
+    	color: #999999;
+    }
+    .research_liTwo {
+    	width: 50%;
+    	float: left;
+    	height: 290px;
+    	background:url(../img/chuangxin_bg_a.png) no-repeat;
+    	background-size: 100% 100%;
+    	position: relative;
+    }
+    .research_liThree {
+    	width: 50%;
+    	float: left;
+    	height: 290px;
+    	background:url(../img/chuangxin_bg_b.png) no-repeat;
+    	background-size: 100% 100%;
+    	position: relative;
+    }
+    .research_liFour {
+    	width: 50%;
+    	float: left;
+    	height: 290px;
+    	background: #fff;
+    	position: relative;
+    }
+    .tencent {
+    	width: 100%;
+    	height: 590px;
+    	background: #F8F8F8;
+    }
+    .tencent_li {
+	    width: 20%;
+	    height: 70px;
+	    border: 1px dashed #000;
+	    display: flex;
+	    justify-content: center;
+	    align-items: center;
+	    margin: 0px 28px 60px 37px;
+	    float: left;
+	}
+    
+}  /*>=1366的设备*/
+
+
+
+/*>=1440的设备*/
+@media (min-width: 1440px) {
+    body{
+    	font-size: 25px !important;
+    	position: relative;
+    }
+    .footer_left {
+		width: 24%;
+		height: 380px;
+		float: left;
+	}
+	.footer_logo {
+		width: 42%;
+		display: block;
+		margin-left: 10px;
+		padding-top: 40px;
+	}
+	.footer_mess {
+		width: 6%;
+		padding-left: 10px;
+		padding-top: 8px;
+	}
+	.footer_email {
+		padding-left: 5px;
+		font-size: 15px;
+		color: #fff;
+	}
+	.footer_middle {
+		width: 57%;
+		height: 380px;
+		float: left;
+	}
+	.middle_li {
+		font-size: 20px;
+		color: #fff;
+		font-weight: bold;
+	}
+	.middle_liTwo {
+		font-size: 16px;
+		color: #949494;
+		margin-top: 10px;
+	}
+	.footer_right {
+		width: 18%;
+		height: 380px;
+		float: right;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.footerRight_img {
+		width: 55%;
+		padding-top: 40px;
+	}
+    .headNav {
+		width: 100%;
+		height: 784px;
+		background:url(../img/banner_a.png) no-repeat center center;
+		background-size: 100% 100%;
+	}
+	.middleWord {
+		width: 100%;
+		height: 102px;
+		position: absolute;
+		left: 50%;
+		margin-left: -50%;
+		top: 36%;
+		margin-top: -50px;
+		
+	}
+	.middleWordOne {
+		text-align: center;
+		font-size: 64px;
+		color: #fff;
+	}
+	.middleWordTwo {
+		text-align: center;
+		font-size: 26px;
+		color: #fff;
+		padding-top: 40px;
+		
+	}
+    .logo {
+		display: block;
+		float: left;
+		width: 20%;
+		margin-top: 9px;
+		margin-left: 12px;
+	}
+	.head_ul {
+		display: block;
+		float: right;
+		margin-right: 2px;
+	}
+	.twoMenuOne {
+		width: 80px;
+		height: auto;
+		position: absolute;
+		top: 50px;	
+		right: 370px;
+		display: none;
+		z-index: 1000;
+	}
+	.twoMenuTwo {
+		width: 80px;
+		height: auto;
+		position: absolute;
+		top: 50px;	
+		right: 297px;
+		display: none;
+		z-index: 1000;
+	}
+	.twoMenuThree {
+		width: 80px;
+		height: auto;
+		position: absolute;
+		top: 50px;	
+		right: 223px;
+		display: none;
+		z-index: 1000;
+	}
+	.twoMenuFour {
+		width: 80px;
+		height: auto;
+		position: absolute;
+		top: 50px;	
+		right: 144px;
+		display: none;
+		z-index: 1000;
+	}
+	.twoMenuFive {
+		width: 80px;
+		height: auto;
+		position: absolute;
+		top: 50px;	
+		right: 71px;
+		display: none;
+		z-index: 1000;
+	}
+	.twoMenuSix {
+		width: 80px;
+		height: auto;
+		position: absolute;
+		top: 50px;	
+		right: 0px;
+		display: none;
+		z-index: 1000;
+	}
+	.twoMenuOne_li {
+		width: 100%;
+		text-align: center;
+		height: 40px;
+		line-height: 40px;
+		font-size: 13px;
+		color: #fff;
+	}
+	.twoMenuOne_li:hover {
+		color: #00ADE7;
+	}
+	.twoMenuOne_li a {
+		color: #fff;
+	}
+	.twoMenuOne_li a:hover {
+		color: #00ADE7;
+	}
+	.head_li {
+		float: left;
+		width: 74px;
+		height: 48px;
+		text-align: center;
+		line-height: 48px;
+		font-size: 13px;
+		color:#858489;
+	}
+	.head_li:hover {
+		color: #00ade9;
+		border-bottom: 2px solid #00ade7;
+		cursor: pointer;
+	}
+	.strategy {
+    	width: 100%;
+    	height: 402px;
+    	background: #F8F8F8;
+    }
+    .strategy_left {
+    	width: 36%;
+    	height: 402px;
+    	background: url(../img/fuwu_bg.png)no-repeat;
+    	background-size:100% 100%;
+    	float: left;
+    	position: relative;
+    }
+    .left_bottomColor {
+    	width: 100%;
+    	height: 167px;
+    	background: rgba(0,0,0,0.5);
+    	position: absolute;
+    	bottom: 0;
+    }
+    .left_word {
+    	text-indent: 25px;
+    	font-size: 16px;
+    	color: #fff;
+    	padding-top: 10px;
+    	width: 95%;
+    	margin: 0 auto;
+    	line-height: 32px;
+    	letter-spacing: 2px;
+    }
+    .strategy_middle {
+    	width: 30%;
+    	height: 402px;
+    	float: left;
+    	margin-left: 2%;
+    }
+    .strategy_liOne {
+    	width: 100%;
+    	height: 127px;
+    	margin-bottom: 8px;
+    	background: #fff;
+    }
+    .strategy_middle .strategy_liOne:last-child {
+    	margin-bottom: 0;
+    }
+    .liOne_word {
+    	font-size: 20px;
+    	color: #707070;
+    	padding: 20px 0 20px 10px;
+    }
+    .liOne_characters {
+    	font-size: 18px;
+    	color: #BFBFBF;
+    	padding: 20px 0 20px 10px;
+    }
+    .strategy_right {
+    	width: 30%;
+    	height: 402px;
+    	float: left;
+    	margin-left: 2%;
+    }
+    .right_li {
+    	width: 100%;
+    	height: 196px;
+    	margin-bottom: 10px;
+    	background: #fff;
+    }
+    .strategy_right .right_li:last-child {
+    	margin-bottom: 0;
+    }
+    .right_characters {
+    	width: 57%;
+    	line-height: 30px;
+    	letter-spacing: 2px;
+    	padding: 20px 0 20px 20px;
+    }
+    .right_word {
+    	font-size: 20px;
+    	color: #707070;
+    	padding: 30px 0 20px 20px;
+    }
+    .research {
+    	width: 100%;
+    	height: 600px;
+    }
+    .research_liOne {
+    	width: 50%;
+    	float: left;
+    	height: 300px;
+    	background: #fff;
+    	position: relative;
+    }
+    .liOne_research {
+    	position: absolute;
+    	bottom: 78px;
+    	font-size: 20px;
+    	color: #333333;
+    	left: 25px;
+    }
+    .liOne_line {
+    	width: 169px;
+    	height: 3px;
+    	background: #999999;
+    	position: absolute;
+    	left: 25px;
+    	bottom: 60px;
+    }
+    .liOne_china {
+    	position: absolute;
+    	left: 25px;
+    	bottom: 30px;
+    	font-size: 20px;
+    	color: #999999;
+    }
+    .research_liTwo {
+    	width: 50%;
+    	float: left;
+    	height: 300px;
+    	background:url(../img/chuangxin_bg_a.png) no-repeat;
+    	background-size: 100% 100%;
+    	position: relative;
+    }
+    .research_liThree {
+    	width: 50%;
+    	float: left;
+    	height: 300px;
+    	background:url(../img/chuangxin_bg_b.png) no-repeat;
+    	background-size: 100% 100%;
+    	position: relative;
+    }
+    .research_liFour {
+    	width: 50%;
+    	float: left;
+    	height: 300px;
+    	background: #fff;
+    	position: relative;
+    }
+    .tencent {
+    	width: 100%;
+    	height: 590px;
+    	background: #F8F8F8;
+    }
+    .tencent_li {
+	    width: 20%;
+	    height: 70px;
+	    border: 1px dashed #000;
+	    display: flex;
+	    justify-content: center;
+	    align-items: center;
+	    margin: 0px 28px 60px 40px;
+	    float: left;
+	}
+    
+    
+} /*>=1440的设备*/
+
+
+
+/*>=1680的设备*/
+@media (min-width: 1680px) {
+    body{
+    	font-size: 28px;
+    	position: relative;
+    }
+    .footer_left {
+		width: 23%;
+		height: 380px;
+		float: left;
+	}
+	.footer_logo {
+		width: 42%;
+		display: block;
+		margin-left: 10px;
+		padding-top: 40px;
+	}
+	.footer_mess {
+		width: 6%;
+		padding-left: 10px;
+		padding-top: 8px;
+	}
+	.footer_email {
+		padding-left: 5px;
+		font-size: 15px;
+		color: #fff;
+	}
+	.footer_middle {
+		width: 58%;
+		height: 380px;
+		float: left;
+	}
+	.middle_li {
+		font-size: 20px;
+		color: #fff;
+		font-weight: bold;
+	}
+	.middle_liTwo {
+		font-size: 16px;
+		color: #949494;
+		margin-top: 10px;
+	}
+	.footer_right {
+		width: 18%;
+		height: 380px;
+		float: right;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.footerRight_img {
+		width: 48%;
+		padding-top: 40px;
+	}
+    .headNav {
+		width: 100%;
+		height: 870px;
+		background:url(../img/banner_a.png) no-repeat center center;
+		background-size: 100% 100%;
+	}
+	.middleWord {
+		width: 100%;
+		height: 102px;
+		position: absolute;
+		left: 50%;
+		margin-left: -50%;
+		top: 36%;
+		margin-top: -50px;
+		
+	}
+	.middleWordOne {
+		text-align: center;
+		font-size: 78px;
+		color: #fff;
+	}
+	.middleWordTwo {
+		text-align: center;
+		font-size: 30px;
+		color: #fff;
+		padding-top: 40px;
+		
+	}
+    .logo {
+		display: block;
+		float: left;
+		width: 18%;
+		margin-top: 9px;
+		margin-left: 24px;
+	}
+	.head_ul {
+		display: block;
+		float: right;
+		margin-right: 27px;
+	}
+	.twoMenuTwo {
+		width: 80px;
+		height: auto;
+		position: absolute;
+		top: 50px;	
+		right: 321px;
+		display: none;
+		z-index: 1000;
+	}
+	.twoMenuThree {
+		width: 80px;
+		height: auto;
+		position: absolute;
+		top: 50px;	
+		right: 247px;
+		display: none;
+		z-index: 1000;
+	}
+	.twoMenuFour {
+		width: 80px;
+		height: auto;
+		position: absolute;
+		top: 50px;	
+		right: 170px;
+		display: none;
+		z-index: 1000;
+	}
+	.twoMenuFive {
+		width: 80px;
+		height: auto;
+		position: absolute;
+		top: 50px;	
+		right: 96px;
+		display: none;
+		z-index: 1000;
+	}
+	.twoMenuSix {
+		width: 80px;
+		height: auto;
+		position: absolute;
+		top: 50px;	
+		right: 22px;
+		display: none;
+		z-index: 1000;
+	}
+	.twoMenuOne_li {
+		width: 100%;
+		text-align: center;
+		height: 40px;
+		line-height: 40px;
+		font-size: 13px;
+		color: #fff;
+	}
+	.twoMenuOne_li:hover {
+		color: #00ADE7;
+	}
+	.twoMenuOne_li a {
+		color: #fff;
+	}
+	.twoMenuOne_li a:hover {
+		color: #00ADE7;
+	}
+	.head_li {
+		float: left;
+		width: 74px;
+		height: 48px;
+		text-align: center;
+		line-height: 48px;
+		font-size: 13px;
+		color:#858489;
+	}
+	.head_li:hover {
+		color: #00ade9;
+		border-bottom: 2px solid #00ade7;
+		cursor: pointer;
+	}
+	.strategy {
+    	width: 100%;
+    	height: 402px;
+    	background: #F8F8F8;
+    }
+    .strategy_left {
+    	width: 36%;
+    	height: 402px;
+    	background: url(../img/fuwu_bg.png)no-repeat;
+    	background-size:100% 100%;
+    	float: left;
+    	position: relative;
+    }
+    .left_bottomColor {
+    	width: 100%;
+    	height: 150px;
+    	background: rgba(0,0,0,0.5);
+    	position: absolute;
+    	bottom: 0;
+    }
+    .left_word {
+    	text-indent: 25px;
+    	font-size: 16px;
+    	color: #fff;
+    	padding-top: 10px;
+    	width: 95%;
+    	margin: 0 auto;
+    	line-height: 32px;
+    	letter-spacing: 2px;
+    }
+    .strategy_middle {
+    	width: 30%;
+    	height: 402px;
+    	float: left;
+    	margin-left: 2%;
+    }
+    .strategy_liOne {
+    	width: 100%;
+    	height: 127px;
+    	margin-bottom: 8px;
+    	background: #fff;
+    }
+    .strategy_middle .strategy_liOne:last-child {
+    	margin-bottom: 0;
+    }
+    .liOne_word {
+    	font-size: 20px;
+    	color: #707070;
+    	padding: 20px 0 20px 10px;
+    }
+    .liOne_characters {
+    	font-size: 18px;
+    	color: #BFBFBF;
+    	padding: 20px 0 20px 10px;
+    }
+    .strategy_right {
+    	width: 30%;
+    	height: 402px;
+    	float: left;
+    	margin-left: 2%;
+    }
+    .right_li {
+    	width: 100%;
+    	height: 196px;
+    	margin-bottom: 10px;
+    	background: #fff;
+    }
+    .strategy_right .right_li:last-child {
+    	margin-bottom: 0;
+    }
+    .right_characters {
+    	width: 50%;
+    	line-height: 30px;
+    	letter-spacing: 2px;
+    	padding: 20px 0 20px 20px;
+    }
+    .right_word {
+    	font-size: 20px;
+    	color: #707070;
+    	padding: 30px 0 20px 20px;
+    }
+    .research {
+    	width: 100%;
+    	height: 948px;
+    }
+    .research_liOne {
+    	width: 50%;
+    	float: left;
+    	height: 474px;
+    	background: #fff;
+    	position: relative;
+    }
+    .liOne_research {
+    	position: absolute;
+    	bottom: 78px;
+    	font-size: 20px;
+    	color: #333333;
+    	left: 25px;
+    }
+    .liOne_line {
+    	width: 169px;
+    	height: 3px;
+    	background: #999999;
+    	position: absolute;
+    	left: 25px;
+    	bottom: 60px;
+    }
+    .liOne_china {
+    	position: absolute;
+    	left: 25px;
+    	bottom: 30px;
+    	font-size: 20px;
+    	color: #999999;
+    }
+    .research_liTwo {
+    	width: 50%;
+    	float: left;
+    	height: 474px;
+    	background:url(../img/chuangxin_bg_a.png) no-repeat;
+    	background-size: 100% 100%;
+    	position: relative;
+    }
+    .research_liThree {
+    	width: 50%;
+    	float: left;
+    	height: 474px;
+    	background:url(../img/chuangxin_bg_b.png) no-repeat;
+    	background-size: 100% 100%;
+    	position: relative;
+    }
+    .research_liFour {
+    	width: 50%;
+    	float: left;
+    	height: 474px;
+    	background: #fff;
+    	position: relative;
+    }
+    .tencent {
+    	width: 100%;
+    	height: 590px;
+    	background: #F8F8F8;
+    }
+    .tencent_li {
+	    width: 20%;
+	    height: 70px;
+	    border: 1px dashed #000;
+	    display: flex;
+	    justify-content: center;
+	    align-items: center;
+	    margin: 0px 40px 60px 40px;
+	    float: left;
+	}
+} /*>=1680的设备*/
+
+
+
+
+/*>=1920的设备*/
+@media (min-width: 1920px) {
+    body {
+    	font-size: 33px;
+    	position: relative;
+    }
+    .footer_left {
+		width: 20%;
+		height: 380px;
+		float: left;
+	}
+	.footer_logo {
+		width: 42%;
+		display: block;
+		margin-left: 10px;
+		padding-top: 40px;
+	}
+	.footer_mess {
+		width: 6%;
+		padding-left: 10px;
+		padding-top: 20px;
+	}
+	.footer_email {
+		padding-left: 5px;
+		font-size: 15px;
+		color: #fff;
+	}
+	.footer_middle {
+		width: 60%;
+		height: 380px;
+		float: left;
+	}
+	.middle_li {
+		font-size: 20px;
+		color: #fff;
+		font-weight: bold;
+	}
+	.middle_liTwo {
+		font-size: 16px;
+		color: #949494;
+		margin-top: 10px;
+	}
+	.footer_right {
+		width: 19%;
+		height: 380px;
+		float: right;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.footerRight_img {
+		width: 43%;
+		padding-top: 40px;
+	}
+	.headNav {
+		width: 100%;
+		height: 1047px;
+		background:url(../img/banner_a.png) no-repeat center center;
+		background-size: 100% 100%;
+		position: relative;
+	}
+	.middleWord {
+		width: 100%;
+		height: 102px;
+		position: absolute;
+		left: 50%;
+		margin-left: -50%;
+		top: 50%;
+		margin-top: -50px;
+		
+	}
+	.middleWordOne {
+		text-align: center;
+		font-size: 78px;
+		color: #fff;
+	}
+	.middleWordTwo {
+		text-align: center;
+		font-size: 30px;
+		color: #fff;
+		padding-top: 40px;
+		
+	}
+    .logo {
+		display: block;
+		float: left;
+		width: 16%;
+		margin-top: 9px;
+		margin-left: 93px;
+	}
+	.head_ul {
+		display: block;
+		float: right;
+		margin-right: 73px;
+	}
+	.head_li {
+		float: left;
+		width: 74px;
+		height: 48px;
+		text-align: center;
+		line-height: 48px;
+		font-size: 13px;
+		color:#858489;
+	}
+	.head_li:hover {
+		color: #00ade9;
+		border-bottom: 2px solid #00ade7;
+		cursor: pointer;
+	}
+	.twoMenuOne {
+		width: 80px;
+		height: auto;
+		position: absolute;
+		top: 50px;	
+		right: 438px;
+		display: none;
+		z-index: 1000;
+	}
+	.twoMenuTwo {
+		width: 80px;
+		height: auto;
+		position: absolute;
+		top: 50px;	
+		right: 365px;
+		display: none;
+		z-index: 1000;
+	}
+	.twoMenuThree {
+		width: 80px;
+		height: auto;
+		position: absolute;
+		top: 50px;	
+		right: 290px;
+		display: none;
+		z-index: 1000;
+	}
+	.twoMenuFour {
+		width: 80px;
+		height: auto;
+		position: absolute;
+		top: 50px;	
+		right: 217px;
+		display: none;
+		z-index: 1000;
+	}
+	.twoMenuFive {
+		width: 80px;
+		height: auto;
+		position: absolute;
+		top: 50px;	
+		right: 142px;
+		display: none;
+		z-index: 1000;
+	}
+	.twoMenuSix {
+		width: 80px;
+		height: auto;
+		position: absolute;
+		top: 50px;	
+		right: 69px;
+		display: none;
+		z-index: 1000;
+	}
+	.twoMenuOne_li {
+		width: 100%;
+		text-align: center;
+		height: 40px;
+		line-height: 40px;
+		font-size: 13px;
+		color: #fff;
+	}
+	.twoMenuOne_li:hover {
+		color: #00ADE7;
+	}
+	.twoMenuOne_li a {
+		color: #fff;
+	}
+	.twoMenuOne_li a:hover {
+		color: #00ADE7;
+	}
+    .strategy {
+    	width: 100%;
+    	height: 402px;
+    	background: #F8F8F8;
+    }
+    .strategy_left {
+    	width: 36%;
+    	height: 402px;
+    	background: url(../img/fuwu_bg.png)no-repeat;
+    	background-size:100% 100%;
+    	float: left;
+    	position: relative;
+    }
+    .left_bottomColor {
+    	width: 100%;
+    	height: 150px;
+    	background: rgba(0,0,0,0.5);
+    	position: absolute;
+    	bottom: 0;
+    }
+    .left_word {
+    	text-indent: 25px;
+    	font-size: 16px;
+    	color: #fff;
+    	padding-top: 10px;
+    	width: 95%;
+    	margin: 0 auto;
+    	line-height: 32px;
+    	letter-spacing: 2px;
+    }
+    .strategy_middle {
+    	width: 30%;
+    	height: 402px;
+    	float: left;
+    	margin-left: 2%;
+    }
+    .strategy_liOne {
+    	width: 100%;
+    	height: 127px;
+    	margin-bottom: 8px;
+    	background: #fff;
+    }
+    .strategy_middle .strategy_liOne:last-child {
+    	margin-bottom: 0;
+    }
+    .liOne_word {
+    	font-size: 20px;
+    	color: #707070;
+    	padding: 20px 0 20px 10px;
+    }
+    .liOne_characters {
+    	font-size: 18px;
+    	color: #BFBFBF;
+    	padding: 20px 0 20px 10px;
+    }
+    .strategy_right {
+    	width: 30%;
+    	height: 402px;
+    	float: left;
+    	margin-left: 2%;
+    }
+    .right_li {
+    	width: 100%;
+    	height: 196px;
+    	margin-bottom: 10px;
+    	background: #fff;
+    }
+    .strategy_right .right_li:last-child {
+    	margin-bottom: 0;
+    }
+    .right_characters {
+    	width: 50%;
+    	line-height: 30px;
+    	letter-spacing: 2px;
+    	padding: 20px 0 20px 20px;
+    }
+    .right_word {
+    	font-size: 20px;
+    	color: #707070;
+    	padding: 30px 0 20px 20px;
+    }
+    .research {
+    	width: 100%;
+    	height: 948px;
+    }
+    .research_liOne {
+    	width: 50%;
+    	float: left;
+    	height: 474px;
+    	background: #fff;
+    	position: relative;
+    }
+    .liOne_research {
+    	position: absolute;
+    	bottom: 78px;
+    	font-size: 20px;
+    	color: #333333;
+    	left: 25px;
+    }
+    .liOne_line {
+    	width: 169px;
+    	height: 3px;
+    	background: #999999;
+    	position: absolute;
+    	left: 25px;
+    	bottom: 60px;
+    }
+    .liOne_china {
+    	position: absolute;
+    	left: 25px;
+    	bottom: 30px;
+    	font-size: 20px;
+    	color: #999999;
+    }
+    .research_liTwo {
+    	width: 50%;
+    	float: left;
+    	height: 474px;
+    	background:url(../img/chuangxin_bg_a.png) no-repeat;
+    	background-size: 100% 100%;
+    	position: relative;
+    }
+    .research_liThree {
+    	width: 50%;
+    	float: left;
+    	height: 474px;
+    	background:url(../img/chuangxin_bg_b.png) no-repeat;
+    	background-size: 100% 100%;
+    	position: relative;
+    }
+    .research_liFour {
+    	width: 50%;
+    	float: left;
+    	height: 474px;
+    	background: #fff;
+    	position: relative;
+    }
+    .tencent {
+    	width: 100%;
+    	height: 590px;
+    	background: #F8F8F8;
+    }
+    .tencent_li {
+	    width: 20%;
+	    height: 70px;
+	    border: 1px dashed #000;
+	    display: flex;
+	    justify-content: center;
+	    align-items: center;
+	    margin: 0px 53px 60px 40px;
+	    float: left;
+	}
+    
+} /*>=1920的设备*/
+

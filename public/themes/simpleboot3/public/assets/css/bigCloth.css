@@ -1,0 +1,1369 @@
+.bigCloth {
+	width: 100%;
+	height: 100%;
+	overflow-y: auto;
+}
+.footer {
+	width: 100%;
+	height: 380px;
+	background: #252628;
+}
+.footer_line {
+	width: 1px;
+	height: 188px;
+	background: #c8c8ca;
+	float: left;
+	margin-top: 53px;
+}
+.middle_ul {
+	float: left;
+	width: 16.6%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding-top: 36px;
+}
+.sao {
+	font-size: 15px;
+	color: #fff;
+	padding-top: 28px;
+}
+.guanzhu {
+	font-size: 15px;
+	color: #fff;
+	padding-top: 10px;
+}
+.fit {
+	width: 100%;
+	height: 120px;
+	background: #fff;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.fit_one {
+	font-size: 40px;
+	color: #666666;
+}
+.fit_two {
+	font-size: 18px;
+	color: #dddddd;
+	margin-top: 5px;
+}
+.challenge {
+	width: 100%;
+	height: 120px;
+	background: #f0f0f0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+
+/*<=1024的设备*/
+@media (max-width: 1024px){
+    body{
+    	font-size: 18px;
+    	position: relative;
+    }
+    
+    .footer_left {
+		width: 28%;
+		height: 380px;
+		float: left;
+	}
+	.footer_logo {
+		width: 35%;
+		display: block;
+		margin-left: 10px;
+		padding-top: 40px;
+	}
+	.footer_mess {
+		width: 6%;
+		padding-left: 10px;
+		padding-top: 8px;
+	}
+	.footer_email {
+		padding-left: 5px;
+		font-size: 12px;
+		color: #fff;
+	}
+	.footer_middle {
+		width: 57%;
+		height: 380px;
+		float: left;
+	}
+	.middle_li {
+		font-size: 16px;
+		color: #fff;
+		font-weight: bold;
+	}
+	.middle_liTwo {
+		font-size: 13px;
+		color: #949494;
+		margin-top: 10px;
+	}
+	.footer_right {
+		width: 14%;
+		height: 380px;
+		float: right;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.footerRight_img {
+		width: 64%;
+		padding-top: 40px;
+	}
+	.bigQuick_head {
+		width: 100%;
+		height: 267px;
+		background: url(../img/dafushi_banner.png)no-repeat;
+		background-size: 100% 100%;
+	}
+	.headNav {
+		width: 95%;
+		height: 50px;
+		margin: 0 auto;
+		display: flex;
+		align-items: center;
+	}
+	.headNav_img {
+		width: 34px;
+		float: left;
+	}
+	.headNav_name {
+		font-size: 16px;
+		color: #fff;
+		float: left;
+		padding-left: 5px;
+	}
+	.headNav_li {
+		float: left;
+		min-width: 60px;
+		height: 40px;
+		text-align: center;
+		line-height: 40px;
+		color: #fff;
+		font-size: 14px;
+		margin: 0 10px;
+	}
+	.headNav_li:hover {
+		border-bottom: 1px solid #fff;
+		cursor: pointer;
+	}
+	.headNav_ul {
+		margin-left: 20px;
+	}
+	.headBottom {
+		width:90%;
+		height: 400px;
+		margin: 0 auto;
+	}
+	.headBot_one {
+		font-size: 38px;
+		color: #fff;
+		margin-top: 24px;
+	}
+	.headBot_two {
+		font-size: 14px;
+		color: #e1eff8;
+		margin-top: 35px;
+	}
+	.headBot_three {
+		font-size: 14px;
+		color: #e1eff8;
+		margin-top: 10px;
+	}
+	.headBot_four {
+		width: 122px;
+		height: 28px;
+		border: 1px solid #fff;
+		text-align: center;
+		line-height: 28px;
+		color: #fff;
+		margin-top: 30px;
+		font-size: 16px;
+		border-radius: 2px;
+	}
+	.dailyUse {
+		width: 100%;
+		height: 400px;
+		background: #fff;
+	}
+	.daily_li {
+		width: 20%;
+		height: 400px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		float: left;
+	}
+	.daily_img {
+		width: 40%;
+	}
+	.daily_word {
+		font-size: 23px;
+		color: #666666;
+		margin-top: 30px;
+	}
+	.challenge_img {
+		width: 100%;
+		height: 493px;
+		background: #f0f0f0;
+	}
+	.chall_img {
+		width: 100%;
+		height: 100%;
+	}
+    
+} /*<=1024的设备*/
+
+
+
+
+
+/*>=1024的设备*/
+@media (min-width: 1024px){
+    body{
+    	font-size: 18px;
+    	position: relative;
+    }
+    
+    .footer_left {
+		width: 28%;
+		height: 380px;
+		float: left;
+	}
+	.footer_logo {
+		width: 35%;
+		display: block;
+		margin-left: 10px;
+		padding-top: 40px;
+	}
+	.footer_mess {
+		width: 6%;
+		padding-left: 10px;
+		padding-top: 8px;
+	}
+	.footer_email {
+		padding-left: 5px;
+		font-size: 12px;
+		color: #fff;
+	}
+	.footer_middle {
+		width: 57%;
+		height: 380px;
+		float: left;
+	}
+	.middle_li {
+		font-size: 16px;
+		color: #fff;
+		font-weight: bold;
+	}
+	.middle_liTwo {
+		font-size: 13px;
+		color: #949494;
+		margin-top: 10px;
+	}
+	.footer_right {
+		width: 14%;
+		height: 380px;
+		float: right;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.footerRight_img {
+		width: 64%;
+		padding-top: 40px;
+	}
+    .bigQuick_head {
+		width: 100%;
+		height: 267px;
+		background: url(../img/dafushi_banner.png)no-repeat;
+		background-size: 100% 100%;
+	}
+	.headNav {
+		width: 95%;
+		height: 50px;
+		margin: 0 auto;
+		display: flex;
+		align-items: center;
+	}
+	.headNav_img {
+		width: 34px;
+		float: left;
+	}
+	.headNav_name {
+		font-size: 16px;
+		color: #fff;
+		float: left;
+		padding-left: 5px;
+	}
+	.headNav_li {
+		float: left;
+		min-width: 60px;
+		height: 40px;
+		text-align: center;
+		line-height: 40px;
+		color: #fff;
+		font-size: 14px;
+		margin: 0 10px;
+	}
+	.headNav_li:hover {
+		border-bottom: 1px solid #fff;
+		cursor: pointer;
+	}
+	.headNav_ul {
+		margin-left: 20px;
+	}
+	.headBottom {
+		width:90%;
+		height: 400px;
+		margin: 0 auto;
+	}
+	.headBot_one {
+		font-size: 38px;
+		color: #fff;
+		margin-top: 24px;
+	}
+	.headBot_two {
+		font-size: 14px;
+		color: #e1eff8;
+		margin-top: 35px;
+	}
+	.headBot_three {
+		font-size: 14px;
+		color: #e1eff8;
+		margin-top: 10px;
+	}
+	.headBot_four {
+		width: 122px;
+		height: 28px;
+		border: 1px solid #fff;
+		text-align: center;
+		line-height: 28px;
+		color: #fff;
+		margin-top: 30px;
+		font-size: 16px;
+		border-radius: 2px;
+	}
+	.dailyUse {
+		width: 100%;
+		height: 400px;
+		background: #fff;
+	}
+	.daily_li {
+		width: 20%;
+		height: 400px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		float: left;
+	}
+	.daily_img {
+		width: 40%;
+	}
+	.daily_word {
+		font-size: 23px;
+		color: #666666;
+		margin-top: 30px;
+	}
+	.challenge_img {
+		width: 100%;
+		height: 493px;
+		background: #f0f0f0;
+	}
+	.chall_img {
+		width: 100%;
+		height: 100%;
+	}
+	
+	   
+} /*>=1024的设备*/
+
+
+
+/*>=1100的设备*/
+@media (min-width: 1100px) {
+    body{
+    	font-size: 20px;
+    	position: relative;
+    }
+    
+    .footer_left {
+		width: 28%;
+		height: 380px;
+		float: left;
+	}
+	.footer_logo {
+		width: 35%;
+		display: block;
+		margin-left: 10px;
+		padding-top: 40px;
+	}
+	.footer_mess {
+		width: 6%;
+		padding-left: 10px;
+		padding-top: 8px;
+	}
+	.footer_email {
+		padding-left: 5px;
+		font-size: 13px;
+		color: #fff;
+	}
+	.footer_middle {
+		width: 57%;
+		height: 380px;
+		float: left;
+	}
+	.middle_li {
+		font-size: 17px;
+		color: #fff;
+		font-weight: bold;
+	}
+	.middle_liTwo {
+		font-size: 13px;
+		color: #949494;
+		margin-top: 10px;
+	}
+	.footer_right {
+		width: 14%;
+		height: 380px;
+		float: right;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.footerRight_img {
+		width: 64%;
+		padding-top: 40px;
+	}
+    .bigQuick_head {
+		width: 100%;
+		height: 286px;
+		background: url(../img/dafushi_banner.png)no-repeat;
+		background-size: 100% 100%;
+	}
+	.headNav {
+		width: 95%;
+		height: 50px;
+		margin: 0 auto;
+		display: flex;
+		align-items: center;
+	}
+	.headNav_img {
+		width: 34px;
+		float: left;
+	}
+	.headNav_name {
+		font-size: 16px;
+		color: #fff;
+		float: left;
+		padding-left: 5px;
+	}
+	.headNav_li {
+		float: left;
+		min-width: 60px;
+		height: 40px;
+		text-align: center;
+		line-height: 40px;
+		color: #fff;
+		font-size: 14px;
+		margin: 0 10px;
+	}
+	.headNav_li:hover {
+		border-bottom: 1px solid #fff;
+		cursor: pointer;
+	}
+	.headNav_ul {
+		margin-left: 20px;
+	}
+	.headBottom {
+		width:90%;
+		height: 400px;
+		margin: 0 auto;
+	}
+	.headBot_one {
+		font-size: 54px;
+		color: #fff;
+		margin-top: 30px;
+	}
+	.headBot_two {
+		font-size: 15px;
+		color: #e1eff8;
+		margin-top: 35px;
+	}
+	.headBot_three {
+		font-size: 15px;
+		color: #e1eff8;
+		margin-top: 10px;
+	}
+	.headBot_four {
+		width: 150px;
+		height: 40px;
+		border: 1px solid #fff;
+		text-align: center;
+		line-height: 40px;
+		color: #fff;
+		margin-top: 45px;
+		font-size: 16px;
+		border-radius: 2px;
+	}
+	.dailyUse {
+		width: 100%;
+		height: 400px;
+		background: #fff;
+	}
+	.daily_li {
+		width: 20%;
+		height: 400px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		float: left;
+	}
+	.daily_img {
+		width: 40%;
+	}
+	.daily_word {
+		font-size: 23px;
+		color: #666666;
+		margin-top: 30px;
+	}
+	.challenge_img {
+		width: 100%;
+		height: 529px;
+		background: #f0f0f0;
+	}
+	.chall_img {
+		width: 100%;
+		height: 100%;
+	}
+	
+    
+} /*>=1100的设备*/
+
+
+
+/*>=1280的设备*/
+@media (min-width: 1280px) {
+    body{
+    	font-size: 22px;
+    	position: relative;
+    }
+    
+    .footer_left {
+		width: 27%;
+		height: 380px;
+		float: left;
+	}
+	.footer_logo {
+		width: 42%;
+		display: block;
+		margin-left: 10px;
+		padding-top: 40px;
+	}
+	.footer_mess {
+		width: 6%;
+		padding-left: 10px;
+		padding-top: 8px;
+	}
+	.footer_email {
+		padding-left: 5px;
+		font-size: 15px;
+		color: #fff;
+	}
+	.footer_middle {
+		width: 57%;
+		height: 380px;
+		float: left;
+	}
+	.middle_li {
+		font-size: 20px;
+		color: #fff;
+		font-weight: bold;
+	}
+	.middle_liTwo {
+		font-size: 16px;
+		color: #949494;
+		margin-top: 10px;
+	}
+	.footer_right {
+		width: 15%;
+		height: 380px;
+		float: right;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.footerRight_img {
+		width: 64%;
+		padding-top: 40px;
+	}
+	.bigQuick_head {
+		width: 100%;
+		height: 333px;
+		background: url(../img/dafushi_banner.png)no-repeat;
+		background-size: 100% 100%;
+	}
+	.headNav {
+		width: 95%;
+		height: 50px;
+		margin: 0 auto;
+		display: flex;
+		align-items: center;
+	}
+	.headNav_img {
+		width: 34px;
+		float: left;
+	}
+	.headNav_name {
+		font-size: 16px;
+		color: #fff;
+		float: left;
+		padding-left: 5px;
+	}
+	.headNav_li {
+		float: left;
+		min-width: 60px;
+		height: 40px;
+		text-align: center;
+		line-height: 40px;
+		color: #fff;
+		font-size: 14px;
+		margin: 0 10px;
+	}
+	.headNav_li:hover {
+		border-bottom: 1px solid #fff;
+		cursor: pointer;
+	}
+	.headNav_ul {
+		margin-left: 20px;
+	}
+	.headBottom {
+		width:90%;
+		height: 400px;
+		margin: 0 auto;
+	}
+	.headBot_one {
+		font-size: 54px;
+		color: #fff;
+		margin-top: 30px;
+	}
+	.headBot_two {
+		font-size: 15px;
+		color: #e1eff8;
+		margin-top: 35px;
+	}
+	.headBot_three {
+		font-size: 15px;
+		color: #e1eff8;
+		margin-top: 10px;
+	}
+	.headBot_four {
+		width: 150px;
+		height: 40px;
+		border: 1px solid #fff;
+		text-align: center;
+		line-height: 40px;
+		color: #fff;
+		margin-top: 45px;
+		font-size: 16px;
+		border-radius: 2px;
+	}
+	.dailyUse {
+		width: 100%;
+		height: 400px;
+		background: #fff;
+	}
+	.daily_li {
+		width: 20%;
+		height: 400px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		float: left;
+	}
+	.daily_img {
+		width: 40%;
+	}
+	.daily_word {
+		font-size: 23px;
+		color: #666666;
+		margin-top: 30px;
+	}
+	.challenge_img {
+		width: 100%;
+		height: 616px;
+		background: #f0f0f0;
+	}
+	.chall_img {
+		width: 100%;
+		height: 100%;
+	}
+    
+   
+} /*>=1280的设备*/
+
+
+/*>=1366的设备*/
+@media (min-width: 1366px) {
+
+    body{
+    	font-size: 24px;
+    	position: relative;
+    }
+    
+    .footer_left {
+		width: 26%;
+		height: 380px;
+		float: left;
+	}
+	.footer_logo {
+		width: 42%;
+		display: block;
+		margin-left: 10px;
+		padding-top: 40px;
+	}
+	.footer_mess {
+		width: 6%;
+		padding-left: 10px;
+		padding-top: 8px;
+	}
+	.footer_email {
+		padding-left: 5px;
+		font-size: 15px;
+		color: #fff;
+	}
+	.footer_middle {
+		width: 57%;
+		height: 380px;
+		float: left;
+	}
+	.middle_li {
+		font-size: 20px;
+		color: #fff;
+		font-weight: bold;
+	}
+	.middle_liTwo {
+		font-size: 16px;
+		color: #949494;
+		margin-top: 10px;
+	}
+	.footer_right {
+		width: 16%;
+		height: 380px;
+		float: right;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.footerRight_img {
+		width: 64%;
+		padding-top: 40px;
+	}
+	.bigQuick_head {
+		width: 100%;
+		height: 354px;
+		background: url(../img/dafushi_banner.png)no-repeat;
+		background-size: 100% 100%;
+	}
+	.headNav {
+		width: 95%;
+		height: 50px;
+		margin: 0 auto;
+		display: flex;
+		align-items: center;
+	}
+	.headNav_img {
+		width: 34px;
+		float: left;
+	}
+	.headNav_name {
+		font-size: 16px;
+		color: #fff;
+		float: left;
+		padding-left: 5px;
+	}
+	.headNav_li {
+		float: left;
+		min-width: 60px;
+		height: 40px;
+		text-align: center;
+		line-height: 40px;
+		color: #fff;
+		font-size: 14px;
+		margin: 0 10px;
+	}
+	.headNav_li:hover {
+		border-bottom: 1px solid #fff;
+		cursor: pointer;
+	}
+	.headNav_ul {
+		margin-left: 20px;
+	}
+	.headBottom {
+		width:90%;
+		height: 400px;
+		margin: 0 auto;
+	}
+	.headBot_one {
+		font-size: 60px;
+		color: #fff;
+		margin-top: 40px;
+	}
+	.headBot_two {
+		font-size: 17px;
+		color: #e1eff8;
+		margin-top: 35px;
+	}
+	.headBot_three {
+		font-size: 17px;
+		color: #e1eff8;
+		margin-top: 10px;
+	}
+	.headBot_four {
+		width: 164px;
+		height: 44px;
+		border: 1px solid #fff;
+		text-align: center;
+		line-height: 44px;
+		color: #fff;
+		margin-top: 45px;
+		font-size: 18px;
+		border-radius: 2px;
+	}
+	.dailyUse {
+		width: 100%;
+		height: 400px;
+		background: #fff;
+	}
+	.daily_li {
+		width: 20%;
+		height: 400px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		float: left;
+	}
+	.daily_img {
+		width: 40%;
+	}
+	.daily_word {
+		font-size: 23px;
+		color: #666666;
+		margin-top: 30px;
+	}
+	.challenge_img {
+		width: 100%;
+		height: 657px;
+		background: #f0f0f0;
+	}
+	.chall_img {
+		width: 100%;
+		height: 100%;
+	}
+    
+	
+}  /*>=1366的设备*/
+
+
+
+/*>=1440的设备*/
+@media (min-width: 1440px) {
+    body{
+    	font-size: 25px !important;
+    	position: relative;
+    }
+    
+    .footer_left {
+		width: 24%;
+		height: 380px;
+		float: left;
+	}
+	.footer_logo {
+		width: 42%;
+		display: block;
+		margin-left: 10px;
+		padding-top: 40px;
+	}
+	.footer_mess {
+		width: 6%;
+		padding-left: 10px;
+		padding-top: 8px;
+	}
+	.footer_email {
+		padding-left: 5px;
+		font-size: 15px;
+		color: #fff;
+	}
+	.footer_middle {
+		width: 57%;
+		height: 380px;
+		float: left;
+	}
+	.middle_li {
+		font-size: 20px;
+		color: #fff;
+		font-weight: bold;
+	}
+	.middle_liTwo {
+		font-size: 16px;
+		color: #949494;
+		margin-top: 10px;
+	}
+	.footer_right {
+		width: 18%;
+		height: 380px;
+		float: right;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.footerRight_img {
+		width: 55%;
+		padding-top: 40px;
+	}
+	.bigQuick_head {
+		width: 100%;
+		height: 375px;
+		background: url(../img/dafushi_banner.png)no-repeat;
+		background-size: 100% 100%;
+	}
+	.headNav {
+		width: 95%;
+		height: 50px;
+		margin: 0 auto;
+		display: flex;
+		align-items: center;
+	}
+	.headNav_img {
+		width: 34px;
+		float: left;
+	}
+	.headNav_name {
+		font-size: 16px;
+		color: #fff;
+		float: left;
+		padding-left: 5px;
+	}
+	.headNav_li {
+		float: left;
+		min-width: 60px;
+		height: 40px;
+		text-align: center;
+		line-height: 40px;
+		color: #fff;
+		font-size: 14px;
+		margin: 0 10px;
+	}
+	.headNav_li:hover {
+		border-bottom: 1px solid #fff;
+		cursor: pointer;
+	}
+	.headNav_ul {
+		margin-left: 20px;
+	}
+	.headBottom {
+		width:90%;
+		height: 400px;
+		margin: 0 auto;
+	}
+	.headBot_one {
+		font-size: 60px;
+		color: #fff;
+		margin-top: 40px;
+	}
+	.headBot_two {
+		font-size: 17px;
+		color: #e1eff8;
+		margin-top: 35px;
+	}
+	.headBot_three {
+		font-size: 17px;
+		color: #e1eff8;
+		margin-top: 10px;
+	}
+	.headBot_four {
+		width: 164px;
+		height: 44px;
+		border: 1px solid #fff;
+		text-align: center;
+		line-height: 44px;
+		color: #fff;
+		margin-top: 45px;
+		font-size: 18px;
+		border-radius: 2px;
+	}
+	.dailyUse {
+		width: 100%;
+		height: 400px;
+		background: #fff;
+	}
+	.daily_li {
+		width: 20%;
+		height: 400px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		float: left;
+	}
+	.daily_img {
+		width: 40%;
+	}
+	.daily_word {
+		font-size: 23px;
+		color: #666666;
+		margin-top: 30px;
+	}
+	.challenge_img {
+		width: 100%;
+		height: 693px;
+		background: #f0f0f0;
+	}
+	.chall_img {
+		width: 100%;
+		height: 100%;
+	}
+    
+	
+} /*>=1440的设备*/
+
+
+
+/*>=1680的设备*/
+@media (min-width: 1680px) {
+    body{
+    	font-size: 28px;
+    	position: relative;
+    }
+    
+    .footer_left {
+		width: 23%;
+		height: 380px;
+		float: left;
+	}
+	.footer_logo {
+		width: 42%;
+		display: block;
+		margin-left: 10px;
+		padding-top: 40px;
+	}
+	.footer_mess {
+		width: 6%;
+		padding-left: 10px;
+		padding-top: 8px;
+	}
+	.footer_email {
+		padding-left: 5px;
+		font-size: 15px;
+		color: #fff;
+	}
+	.footer_middle {
+		width: 58%;
+		height: 380px;
+		float: left;
+	}
+	.middle_li {
+		font-size: 20px;
+		color: #fff;
+		font-weight: bold;
+	}
+	.middle_liTwo {
+		font-size: 16px;
+		color: #949494;
+		margin-top: 10px;
+	}
+	.footer_right {
+		width: 18%;
+		height: 380px;
+		float: right;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.footerRight_img {
+		width: 48%;
+		padding-top: 40px;
+	}
+	.bigQuick_head {
+		width: 100%;
+		height: 438px;
+		background: url(../img/dafushi_banner.png)no-repeat;
+		background-size: 100% 100%;
+	}
+	.headNav {
+		width: 95%;
+		height: 50px;
+		margin: 0 auto;
+		display: flex;
+		align-items: center;
+	}
+	.headNav_img {
+		width: 34px;
+		float: left;
+	}
+	.headNav_name {
+		font-size: 16px;
+		color: #fff;
+		float: left;
+		padding-left: 5px;
+	}
+	.headNav_li {
+		float: left;
+		min-width: 60px;
+		height: 40px;
+		text-align: center;
+		line-height: 40px;
+		color: #fff;
+		font-size: 14px;
+		margin: 0 10px;
+	}
+	.headNav_li:hover {
+		border-bottom: 1px solid #fff;
+		cursor: pointer;
+	}
+	.headNav_ul {
+		margin-left: 20px;
+	}
+	.headBottom {
+		width:90%;
+		height: 400px;
+		margin: 0 auto;
+	}
+	.headBot_one {
+		font-size: 60px;
+		color: #fff;
+		margin-top: 78px;
+	}
+	.headBot_two {
+		font-size: 17px;
+		color: #e1eff8;
+		margin-top: 35px;
+	}
+	.headBot_three {
+		font-size: 17px;
+		color: #e1eff8;
+		margin-top: 10px;
+	}
+	.headBot_four {
+		width: 164px;
+		height: 44px;
+		border: 1px solid #fff;
+		text-align: center;
+		line-height: 44px;
+		color: #fff;
+		margin-top: 45px;
+		font-size: 18px;
+		border-radius: 2px;
+	}
+	.dailyUse {
+		width: 100%;
+		height: 400px;
+		background: #fff;
+	}
+	.daily_li {
+		width: 20%;
+		height: 400px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		float: left;
+	}
+	.daily_img {
+		width: 40%;
+	}
+	.daily_word {
+		font-size: 23px;
+		color: #666666;
+		margin-top: 30px;
+	}
+	.challenge_img {
+		width: 100%;
+		height: 809px;
+		background: #f0f0f0;
+	}
+	.chall_img {
+		width: 100%;
+		height: 100%;
+	}
+    
+	
+} /*>=1680的设备*/
+
+
+
+
+/*>=1920的设备*/
+@media (min-width: 1920px) {
+    body {
+    	font-size: 33px;
+    	position: relative;
+    }
+    
+    .footer_left {
+		width: 20%;
+		height: 380px;
+		float: left;
+	}
+	.footer_logo {
+		width: 42%;
+		display: block;
+		margin-left: 10px;
+		padding-top: 40px;
+	}
+	.footer_mess {
+		width: 6%;
+		padding-left: 10px;
+		padding-top: 20px;
+	}
+	.footer_email {
+		padding-left: 5px;
+		font-size: 15px;
+		color: #fff;
+	}
+	.footer_middle {
+		width: 60%;
+		height: 380px;
+		float: left;
+	}
+	.middle_li {
+		font-size: 20px;
+		color: #fff;
+		font-weight: bold;
+	}
+	.middle_liTwo {
+		font-size: 16px;
+		color: #949494;
+		margin-top: 10px;
+	}
+	.footer_right {
+		width: 19%;
+		height: 380px;
+		float: right;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.footerRight_img {
+		width: 43%;
+		padding-top: 40px;
+	}
+	.bigQuick_head {
+		width: 100%;
+		height: 500px;
+		background: url(../img/dafushi_banner.png)no-repeat;
+		background-size: 100% 100%;
+	}
+	.headNav {
+		width: 95%;
+		height: 50px;
+		margin: 0 auto;
+		display: flex;
+		align-items: center;
+	}
+	.headNav_img {
+		width: 34px;
+		float: left;
+	}
+	.headNav_name {
+		font-size: 16px;
+		color: #fff;
+		float: left;
+		padding-left: 5px;
+	}
+	.headNav_li {
+		float: left;
+		min-width: 60px;
+		height: 40px;
+		text-align: center;
+		line-height: 40px;
+		color: #fff;
+		font-size: 14px;
+		margin: 0 10px;
+	}
+	.headNav_li:hover {
+		border-bottom: 1px solid #fff;
+		cursor: pointer;
+	}
+	.headNav_ul {
+		margin-left: 20px;
+	}
+	.headBottom {
+		width:90%;
+		height: 400px;
+		margin: 0 auto;
+	}
+	.headBot_one {
+		font-size: 60px;
+		color: #fff;
+		margin-top: 94px;
+	}
+	.headBot_two {
+		font-size: 17px;
+		color: #e1eff8;
+		margin-top: 35px;
+	}
+	.headBot_three {
+		font-size: 17px;
+		color: #e1eff8;
+		margin-top: 10px;
+	}
+	.headBot_four {
+		width: 164px;
+		height: 44px;
+		border: 1px solid #fff;
+		text-align: center;
+		line-height: 44px;
+		color: #fff;
+		margin-top: 45px;
+		font-size: 18px;
+		border-radius: 2px;
+	}
+	.dailyUse {
+		width: 100%;
+		height: 400px;
+		background: #fff;
+	}
+	.daily_li {
+		width: 20%;
+		height: 400px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		float: left;
+	}
+	.daily_img {
+		width: 40%;
+	}
+	.daily_word {
+		font-size: 23px;
+		color: #666666;
+		margin-top: 30px;
+	}
+	.challenge_img {
+		width: 100%;
+		height: 924px;
+		background: #f0f0f0;
+	}
+	.chall_img {
+		width: 100%;
+		height: 100%;
+	}
+	
+	
+} /*>=1920的设备*/
+
