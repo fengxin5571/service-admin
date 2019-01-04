@@ -25,10 +25,14 @@ class HomeBaseController extends BaseController
         parent::initialize();
         $siteInfo = cmf_get_site_info();
         $newCategories=NavMenuModel::where('nav_id',1)->select()->toArray();
+        $solution_nav=NavMenuModel::where('nav_id',3)->select()->toArray();
         $tree       = new Tree();
         $tree->init($newCategories);
         $treeStr = $tree->getTreeArray(0);
+        $tree->init($solution_nav);
+        $solution=$tree->getTreeArray(0);
         View::share('nav_info', $treeStr);
+        View::share('solution_info', $solution);
         View::share('site_info', $siteInfo);
     }
 

@@ -1,0 +1,11 @@
+<!--*****************头部导航*****************-->
+<div class="headNav">
+    <img src="__TMPL__/public/assets/img/logo_kuaixiao.png" class="headNav_img"/>
+    <span class="headNav_name">大快消</span>
+    <ul class="headNav_ul">
+        <li class="headNav_li">大快消</li>
+        <foreach name="solution_info" item="nav">
+            <a href="{$nav.href}"><li class="headNav_li">{$nav.name|default=''}</li></a>
+        </foreach>
+    </ul>
+</div>

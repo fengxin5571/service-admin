@@ -38,5 +38,11 @@ class IndexController extends HomeBaseController
         View::share('title', '品牌营销');
         return $this->fetch(':brandSale');
     }
-    
+    /*
+     * 大快消
+     */
+    public function bigQuick(){
+        View::share('title', '大快消');
+        return $this->fetch(':bigQuick');
+    }
 }
