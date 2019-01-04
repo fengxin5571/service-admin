@@ -12,6 +12,7 @@ namespace app\portal\controller;
 
 use app\admin\model\NavMenuModel;
 use cmf\controller\HomeBaseController;
+use think\View;
 use tree\Tree;
 
 class IndexController extends HomeBaseController
@@ -27,6 +28,15 @@ class IndexController extends HomeBaseController
      * 数字套件
      */
     public function numberSuite(){
+        View::share('title', '数字套件');
         return $this->fetch(':numberSuite');
     }
+    /*
+     * 品牌营销
+     */
+    public function brandSale(){
+        View::share('title', '品牌营销');
+        return $this->fetch(':brandSale');
+    }
+    
 }
