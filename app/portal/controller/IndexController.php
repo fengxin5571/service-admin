@@ -118,4 +118,11 @@ class IndexController extends HomeBaseController
         View::share('title', '理想生活圈');
         return $this->fetch(':wantLife');
     }
+    /*
+     * 关于我们
+     */
+    public function aboutCom(){
+        View::share('title', '关于我们');
+        return $this->fetch(':aboutCom');
+    }
 }
