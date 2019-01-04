@@ -1835,6 +1835,7 @@
 		height: 784px;
 		background:url(../img/banner_a.png) no-repeat center center;
 		background-size: 100% 100%;
+		position: relative;
 	}
 	.middleWord {
 		width: 100%;
@@ -2172,6 +2173,7 @@
 		height: 870px;
 		background:url(../img/banner_a.png) no-repeat center center;
 		background-size: 100% 100%;
+		position: relative;
 	}
 	.middleWord {
 		width: 100%;

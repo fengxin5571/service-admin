@@ -5,19 +5,19 @@
             <img src="__TMPL__/public/assets/img/logo竖式@2x.png" class="footer_logo"/>
             <p>
                 <img src="__TMPL__/public/assets/img/底部邮箱@2x.png" class="footer_mess"/>
-                <span class="footer_email">{$site_info.site_admin_email}</span>
+                <span class="footer_email">{$site_info.site_admin_email|default=''}</span>
             </p>
             <p>
                 <img src="__TMPL__/public/assets/img/底部电话@2x.png" class="footer_mess"/>
-                <span class="footer_email">0351-6666666</span>
+                <span class="footer_email">{$site_info.site_admin_tel|default=''}</span>
             </p>
+            <!--<p>-->
+                <!--<img src="__TMPL__/public/assets/img/底部@2x.png" class="footer_mess"/>-->
+                <!--<span class="footer_email">深圳前海深港合作区前湾一路A栋201号</span>-->
+            <!--</p>-->
             <p>
                 <img src="__TMPL__/public/assets/img/底部@2x.png" class="footer_mess"/>
-                <span class="footer_email">深圳前海深港合作区前湾一路A栋201号</span>
-            </p>
-            <p>
-                <img src="__TMPL__/public/assets/img/底部@2x.png" class="footer_mess"/>
-                <span class="footer_email">太原市小店区太原南站阿里巴巴创新中心4层</span>
+                <span class="footer_email">{$site_info.site_admin_address|default=''}</span>
             </p>
         </li>
         <li class="footer_line"></li>

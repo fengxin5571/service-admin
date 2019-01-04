@@ -108,6 +108,20 @@
                             </div>
                         </div>
                         <div class="form-group">
+                            <label for="input-site_admin_email" class="col-sm-2 control-label">公司电话</label>
+                            <div class="col-md-6 col-sm-10">
+                                <input type="text" class="form-control" id="input-site_admin_tel"
+                                       name="options[site_admin_tel]" value="{$site_info.site_admin_tel|default=''}">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="input-site_admin_email" class="col-sm-2 control-label">公司地址</label>
+                            <div class="col-md-6 col-sm-10">
+                                <input type="text" class="form-control" id="input-site_admin_address"
+                                       name="options[site_admin_address]" value="{$site_info.site_admin_address|default=''}">
+                            </div>
+                        </div>
+                        <div class="form-group">
                             <label for="input-site_analytics" class="col-sm-2 control-label">{:lang('WEBSITE_STATISTICAL_CODE')}</label>
                             <div class="col-md-6 col-sm-10">
                                 <textarea class="form-control" id="input-site_analytics" name="options[site_analytics]">{$site_info.site_analytics|default=''}</textarea>
