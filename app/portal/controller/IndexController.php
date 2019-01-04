@@ -125,4 +125,11 @@ class IndexController extends HomeBaseController
         View::share('title', '关于我们');
         return $this->fetch(':aboutCom');
     }
+    /*
+     * 走进我们
+     */
+    public function enterUs(){
+        View::share('title', '走进我们');
+        return $this->fetch(':enterUs');
+    }
 }
