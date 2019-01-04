@@ -133,9 +133,11 @@
     <div class="tencent">
         <ul>
             <links>
-                <li class="tencent_li">
-                    <a href="{$vo.url|default=''}" title="{$vo.name}" target="{$vo.target}"><img src="{:cmf_get_image_url($vo.image)}" class="tencent_imgOne"/></a>
-                </li>
+                <a href="{$vo.url|default=''}" title="{$vo.name}" target="{$vo.target}">
+                    <li class="tencent_li">
+                        <img src="{:cmf_get_image_url($vo.image)}" class="tencent_imgOne"/>
+                    </li>
+                </a>
             </links>
         </ul>
     </div>
