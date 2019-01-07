@@ -139,4 +139,11 @@ class IndexController extends HomeBaseController
         View::share('title', '智库报告');
         return $this->fetch(':Presentation');
     }
+    /*
+     * 行业洞察
+     */
+    public function industry(){
+        View::share('title', '行业洞察');
+        return $this->fetch(':industry');
+    }
 }
