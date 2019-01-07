@@ -63,7 +63,7 @@ class ArticleController extends HomeBaseController
 
             $this->assign('category', $category);
 
-            $tplName = empty($category["one_tpl"]) ? $tplName : $category["one_tpl"];
+            //$tplName = empty($category["one_tpl"]) ? $tplName : $category["one_tpl"];
         }
 
         Db::name('portal_post')->where('id', $articleId)->setInc('post_hits');
