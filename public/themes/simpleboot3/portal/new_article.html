@@ -1,0 +1,131 @@
+<taglib name="app\portal\taglib\Portal"/>
+<layout name="public@layout" />
+<link rel="stylesheet" href="__TMPL__/public/assets/css/wisdomPresentation.css" />
+<link href="__TMPL__/public/assets/simpleboot3/themes/simpleboot3/bootstrap.min.css" rel="stylesheet">
+<style>
+    #article_content img {
+        height: auto !important;
+        max-width: 100%;
+    }
+
+    #article_content {
+        word-wrap: break-word;
+    }
+</style>
+<div class="wisdomPresentation">
+    <!--************头部导航************-->
+    <div class="netWork_head">
+        <include file="public@top_nav"/>
+        <!--****************中间的字****************-->
+        <div class="middleWord">
+            <p class="middleWordOne">{$article.post_title}</p>
+        </div>
+    </div>
+
+    <!--****************报告详情****************-->
+    <div class="wordContent">
+        <div class="wordContent_left">
+            <div class="wordContent_lefthead">
+                <php>
+                    /*当前文章分类 id*/
+                    $currentCid=$category['id'];
+                </php>
+                    <portal:breadcrumb cid="currentCid" self="true">
+                        <a href="{:url('portal/List/index',['id'=>$vo['id']])}" style="color:#9b9b9b">{$vo.name}</a>  >
+                    </portal:breadcrumb>
+                    {$article.post_title}
+
+
+            </div>
+            <div class="wordContent_data">
+                <p class="data_wordOne">农业 </p>
+                <p class="data_wordTwo">农业发展 </p>
+                <span class="data_wordThree">{:date('Y-m-d H:i',$article.published_time)}</span>
+            </div>
+            <div id="article_content">
+                {$article.post_content}
+            </div>
+
+            <div class="wordContent_say">
+                ——&nbsp;&nbsp;版权声明&nbsp;&nbsp;——
+            </div>
+            <div class="wordContent_speak">
+                凡来源为企及网的内容，其版权均属山西企及云计算技术有限公司所有。文章内容系作者个人观点，不代表企及对观点赞同或支持。
+            </div>
+            <div class="wordContent_support">
+                点赞支持
+            </div>
+        </div>
+
+        <div class="wordContent_right">
+            <div class="wordContent_name">
+                <img src="__TMPL__/public/assets/img/rightImg.png" class="wordContent_headImg"/>
+                <ul class="wordContent_ul">
+                    <li class="wordContent_na">{$article.user.user_nickname}</li>
+                    <li>
+                        <img src="__TMPL__/public/assets/img/weixin.png" class="weixin"/>
+                    </li>
+                    <li class="weixinNumber">企及分析师 微信号15822045746　</li>
+                </ul>
+                <div class="clear"></div>
+                <div class="wordContent_num">
+                    <span class="num_wordOne">10篇文章</span>
+                    <span class="num_wordTwo">{$article.post_hits}次浏览</span>
+                </div>
+            </div>
+
+
+            <div class="wordContent_hot">
+                <div class="rightHot_title">
+                    <span class="hot_mess">热门文章</span>
+                    <span class="hot_more">更多></span>
+                </div>
+                <php>
+                    $hot_articles=[];
+                </php>
+                <ul class="rightHot_ul">
+                    <portal:articles limit="5" order="post.post_hits DESC">
+                        <php>$top=$key<3?"top3":"";</php>
+                        <li class="rightHot_li">
+                            <span><a title="{$vo.post_title}"
+                               href="{:url('portal/article/index',array('id'=>$vo['id']))}" style="color: #666666;">
+                                {$vo.post_title}
+                            </a></span>
+                        </li>
+                    </portal:articles>
+
+                </ul>
+                <div class="rightHot_up">
+                    <if ($prev_article)>
+                    <a href="{:url('portal/article/index',array('id'=>$prev_article.id))}"><p class="hotUp_word">
+                        上一篇：{$prev_article.post_title}
+                    </p>
+                    </a>
+
+                    <else/>
+                        <p class="hotUp_word">
+                            已经是第一篇文章了
+                        </p>
+                    </if>
+                </div>
+                <div class="rightHot_up">
+                    <if ($next_article)>
+                    <a href="{:url('portal/article/index',array('id'=>$next_article.id))}"><p class="hotUp_word">
+                        下一篇：{$next_article.post_title}
+                    </p></a>
+                    <else/>
+                        <p class="hotUp_word">
+                            已经是最后一篇文章了
+                        </p>
+                    </if>
+                </div>
+            </div>
+
+
+
+        </div>
+
+
+    </div>
+    <include file="public@footer_nav"/>
+</div>

@@ -232,6 +232,7 @@ class PostService
                 ->where('post.published_time', ['< time', time()], ['> time', 0], 'and')
                 ->order('id', 'ASC')
                 ->find();
+
         } else {
             $where = [
                 'post.post_type'       => 1,

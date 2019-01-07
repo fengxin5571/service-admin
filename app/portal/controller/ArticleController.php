@@ -35,21 +35,20 @@ class ArticleController extends HomeBaseController
         $articleId  = $this->request->param('id', 0, 'intval');
         $categoryId = $this->request->param('cid', 0, 'intval');
         $article    = $postService->publishedArticle($articleId, $categoryId);
-
+        $prevArticle = $postService->publishedPrevArticle($articleId, $categoryId);
+        $nextArticle = $postService->publishedNextArticle($articleId, $categoryId);
         if (empty($article)) {
             abort(404, '文章不存在!');
         }
 
 
-        $prevArticle = $postService->publishedPrevArticle($articleId, $categoryId);
-        $nextArticle = $postService->publishedNextArticle($articleId, $categoryId);
-
-        $tplName = 'article';
-
+        //$tplName = 'article';
+        $tplName = 'new_article';
         if (empty($categoryId)) {
             $categories = $article['categories'];
 
             if (count($categories) > 0) {
+                //$categoryId=$categories[0]['id'];
                 $this->assign('category', $categories[0]);
             } else {
                 abort(404, '文章未指定分类!');
@@ -72,11 +71,13 @@ class ArticleController extends HomeBaseController
 
         hook('portal_before_assign_article', $article);
 
+
         $this->assign('article', $article);
         $this->assign('prev_article', $prevArticle);
         $this->assign('next_article', $nextArticle);
 
-        $tplName = empty($article['more']['template']) ? $tplName : $article['more']['template'];
+
+        //$tplName = empty($article['more']['template']) ? $tplName : $article['more']['template'];
 
         return $this->fetch("/$tplName");
     }
