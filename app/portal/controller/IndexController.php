@@ -132,4 +132,11 @@ class IndexController extends HomeBaseController
         View::share('title', '走进我们');
         return $this->fetch(':enterUs');
     }
+    /*
+     * 智库报告
+     */
+    public function Presentation(){
+        View::share('title', '智库报告');
+        return $this->fetch(':Presentation');
+    }
 }
