@@ -1,3 +1,4 @@
+<taglib name="app\portal\taglib\Portal"/>
 <layout name="public@layout" />
 <link rel="stylesheet" href="__TMPL__/public/assets/css/Presentation.css" />
 <div class="Presentation">
@@ -72,66 +73,34 @@
             <span class="hot_wordThree"><a href="/portal/list"  style="color: #666666;">more</a></span>
         </div>
         <ul class="moreVideo_ul">
-            <li class="more_liOne">
-                <img src="__TMPL__/public/assets/img/example_ba.png" class="more_imgOne"/>
-                <p class="more_wordOne">沃尔玛的创新-沃尔玛中国</p>
-                <p class="more_wordTwo">Jordan Berke</p>
-            </li>
-            <li class="more_liTwo">
-                <img src="__TMPL__/public/assets/img/example_cc.png" class="more_imgOne"/>
-                <p class="more_wordOne">沃尔玛的创新-沃尔玛中国</p>
-                <p class="more_wordTwo">Jordan Berke</p>
-            </li>
-            <li class="more_liThree">
-                <img src="__TMPL__/public/assets/img/example_bb.png" class="more_imgOne"/>
-                <p class="more_wordOne">沃尔玛的创新-沃尔玛中国</p>
-                <p class="more_wordTwo">Jordan Berke</p>
-            </li>
-            <li class="more_liOne">
-                <img src="__TMPL__/public/assets/img/example_fa.png" class="more_imgOne"/>
-                <p class="more_wordOne">沃尔玛的创新-沃尔玛中国</p>
-                <p class="more_wordTwo">Jordan Berke</p>
-            </li>
-            <li class="more_liOne">
-                <img src="__TMPL__/public/assets/img/example_ba.png" class="more_imgOne"/>
-                <p class="more_wordOne">沃尔玛的创新-沃尔玛中国</p>
-                <p class="more_wordTwo">Jordan Berke</p>
-            </li>
-            <li class="more_liTwo">
-                <img src="__TMPL__/public/assets/img/example_cc.png" class="more_imgOne"/>
-                <p class="more_wordOne">沃尔玛的创新-沃尔玛中国</p>
-                <p class="more_wordTwo">Jordan Berke</p>
-            </li>
-            <li class="more_liThree">
-                <img src="__TMPL__/public/assets/img/example_bb.png" class="more_imgOne"/>
-                <p class="more_wordOne">沃尔玛的创新-沃尔玛中国</p>
-                <p class="more_wordTwo">Jordan Berke</p>
-            </li>
-            <li class="more_liOne">
-                <img src="__TMPL__/public/assets/img/example_fa.png" class="more_imgOne"/>
-                <p class="more_wordOne">沃尔玛的创新-沃尔玛中国</p>
-                <p class="more_wordTwo">Jordan Berke</p>
-            </li>
-            <li class="more_liOne">
-                <img src="__TMPL__/public/assets/img/example_ba.png" class="more_imgOne"/>
-                <p class="more_wordOne">沃尔玛的创新-沃尔玛中国</p>
-                <p class="more_wordTwo">Jordan Berke</p>
-            </li>
-            <li class="more_liTwo">
-                <img src="__TMPL__/public/assets/img/example_cc.png" class="more_imgOne"/>
-                <p class="more_wordOne">沃尔玛的创新-沃尔玛中国</p>
-                <p class="more_wordTwo">Jordan Berke</p>
-            </li>
-            <li class="more_liThree">
-                <img src="__TMPL__/public/assets/img/example_bb.png" class="more_imgOne"/>
-                <p class="more_wordOne">沃尔玛的创新-沃尔玛中国</p>
-                <p class="more_wordTwo">Jordan Berke</p>
-            </li>
-            <li class="more_liOne">
-                <img src="__TMPL__/public/assets/img/example_fa.png" class="more_imgOne"/>
-                <p class="more_wordOne">沃尔玛的创新-沃尔玛中国</p>
-                <p class="more_wordTwo">Jordan Berke</p>
-            </li>
+            <php>
+                $where=['recommended'=>1];
+            </php>
+            <portal:articles limit="12" order="post.post_hits DESC" where="$where" relation="user">
+                    <php>
+                        $key=($key+1)>=5?$key-4:$key;
+                        if(($key+1)%3==0){
+                        echo '<li class="more_liThree">';
+                        }elseif (($key+1)%2==0&&($key+1)%4>0){
+                            echo '<li class="more_liTwo">';
+                        }else{
+                            echo '<li class="more_liOne">';
+                        }
+                    </php>
+                    </a>
+                    <if ($vo.thumbnail)>
+                        <img src="{:cmf_get_image_url($vo.thumbnail)}" class="more_imgOne"/>
+                    <else/>
+                        <img src="__TMPL__/public/assets/img/example_ba.png" class="more_imgOne"/>
+                    </if>
+
+                    <p class="more_wordOne"><a href="{:url('portal/article/index',array('id'=>$vo['id']))}" style="color: #666666;">{$vo.post_title}</a></p>
+                    <p class="more_wordTwo">{$vo['user']['user_nickname']}</p>
+
+                </li>
+            </portal:articles>
+
+
         </ul>
     </div>
     <include file="public@footer_nav"/>
