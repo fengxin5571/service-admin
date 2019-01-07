@@ -294,7 +294,7 @@
 	}
 	.wordContent {
 		width: 96%;
-		height: 1829px;
+		overflow-y: auto;
 		background: #fff;
 		margin: 350px auto 0 auto;
 	}
@@ -789,7 +789,7 @@
 	}
 	.wordContent {
 		width: 96%;
-		height: 1829px;
+		overflow-y: auto;
 		background: #fff;
 		margin: 350px auto 0 auto;
 	}
@@ -1280,7 +1280,7 @@
 	}
 	.wordContent {
 		width: 97%;
-		height: 1829px;
+		overflow-y: auto;
 		background: #fff;
 		margin: 350px auto 0 auto;
 	}
@@ -1771,7 +1771,7 @@
 	}
 	.wordContent {
 		width: 90%;
-		height: 1829px;
+		overflow-y: auto;
 		background: #fff;
 		margin: 350px auto 0 auto;
 	}
@@ -2261,7 +2261,7 @@
 	}
 	.wordContent {
 		width: 90%;
-		height: 1829px;
+		overflow-y: auto;
 		background: #fff;
 		margin: 350px auto 0 auto;
 	}
@@ -2750,7 +2750,7 @@
 	}
 	.wordContent {
 		width: 90%;
-		height: 1829px;
+		overflow-y: auto;
 		background: #fff;
 		margin: 350px auto 0 auto;
 	}
@@ -3240,7 +3240,7 @@
 	}
 	.wordContent {
 		width: 90%;
-		height: 1829px;
+		overflow-y: auto;
 		background: #fff;
 		margin: 350px auto 0 auto;
 	}
@@ -3723,7 +3723,7 @@
 	}
 	.wordContent {
 		width: 90%;
-		height: 1829px;
+		overflow-y: auto;
 		background: #fff;
 		margin: 350px auto 0 auto;
 	}

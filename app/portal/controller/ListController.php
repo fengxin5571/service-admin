@@ -31,8 +31,8 @@ class ListController extends HomeBaseController
        
         $this->assign('category', $category);
 
-        $listTpl = empty($category['list_tpl']) ? 'list' : $category['list_tpl'];
-
+        //$listTpl = empty($category['list_tpl']) ? 'list' : $category['list_tpl'];
+        $listTpl='new_list';
         return $this->fetch('/' . $listTpl);
     }
 
