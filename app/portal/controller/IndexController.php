@@ -146,4 +146,11 @@ class IndexController extends HomeBaseController
         View::share('title', '行业洞察');
         return $this->fetch(':industry');
     }
+    /*
+     * 零售先锋
+     */
+    public function saleFirst(){
+        View::share('title', '零售先锋');
+        return $this->fetch(':saleFirst');
+    }
 }
