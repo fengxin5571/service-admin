@@ -190,6 +190,8 @@
     $(function () {
 
         editorcontent = new baidu.editor.ui.Editor();
+        editorcontent.wordCount=false;
+
         editorcontent.render('content');
         try {
             editorcontent.sync();
