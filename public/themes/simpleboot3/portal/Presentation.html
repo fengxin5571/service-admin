@@ -78,14 +78,15 @@
             </php>
             <portal:articles limit="12" order="post.post_hits DESC" where="$where" relation="user">
                     <php>
-                        $key=($key+1)>=5?$key-4:$key;
-                        if(($key+1)%3==0){
-                        echo '<li class="more_liThree">';
-                        }elseif (($key+1)%2==0&&($key+1)%4>0){
+                        if(in_array($key+1,[3,7,11])){
+                            echo '<li class="more_liThree">';
+                        }else if(in_array($key+1,[2,6,10])){
                             echo '<li class="more_liTwo">';
-                        }else{
+                        }else {
                             echo '<li class="more_liOne">';
                         }
+
+
                     </php>
                     </a>
                     <if ($vo.thumbnail)>
