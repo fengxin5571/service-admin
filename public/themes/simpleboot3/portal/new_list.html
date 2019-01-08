@@ -45,9 +45,9 @@
                                 <div class="pull-left">
                                     <div class="list-actions">
                                         <a href="javascript:;"><i class="fa fa-eye"></i><span>{$vo.post_hits}</span></a>
-                                        <a href="{:url('portal/Article/doLike',array('id'=>$vo['id']))}"
+                                        <a href="#"
                                            class="js-count-btn"><i class="fa fa-thumbs-up"></i><span class="count">{$vo.post_like}</span></a>
-                                        <a href="{:url('user/Favorite/add',array('id'=>$vo['id'],'cid'=>$category['id']))}"
+                                        <a href="#"
                                            class="js-favorite-btn"
                                            data-id="{$vo.id}"
                                            data-table="portal_post"
